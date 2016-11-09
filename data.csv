@@ -1,0 +1,1290 @@
+uf,escolaridade,curso,atuacao,inscritos,selecionados,capacitados,certificados
+AC,Doutorando,Matriz de formação 1,Sistema sinase,1,1,0,0
+AC,Estudante Superior,Matriz de formação 1,Outros,8,0,0,0
+AC,Estudante Superior,Matriz de formação 1,Sistema justiça,2,0,0,0
+AC,Estudante Superior,Matriz de formação 1,Sistema sinase,9,9,4,2
+AC,Estudante Superior,Matriz de formação 2,Conselhos,2,2,0,0
+AC,Estudante Superior,Matriz de formação 2,Outros,10,10,3,1
+AC,Estudante Superior,Matriz de formação 3,Sistema justiça,1,1,1,1
+AC,Mestrando,Matriz de formação 1,Outros,1,0,0,0
+AC,Mestrando,Matriz de formação 1,Sistema sinase,1,1,1,0
+AC,Mestrando,Matriz de formação 2,Outros,1,1,1,1
+AC,Mestre,Matriz de formação 1,Sistema justiça,1,1,1,1
+AC,Mestre,Matriz de formação 2,Outros,1,1,1,0
+AC,Nível Médio,Matriz de formação 1,Conselhos,1,1,0,0
+AC,Nível Médio,Matriz de formação 1,Outros,2,0,0,0
+AC,Nível Médio,Matriz de formação 1,Sistema sinase,5,5,2,2
+AC,Nível Médio,Matriz de formação 2,Outros,11,11,2,1
+AC,Nível Médio,Matriz de formação 2,Sistema sinase,2,2,1,1
+AC,Superior,Matriz de formação 1,Outros,9,0,0,0
+AC,Superior,Matriz de formação 1,Sistema justiça,12,4,2,2
+AC,Superior,Matriz de formação 1,Sistema sinase,14,14,8,6
+AC,Superior,Matriz de formação 2,Conselhos,2,2,2,0
+AC,Superior,Matriz de formação 2,Outros,31,31,14,6
+AC,Superior,Matriz de formação 2,Sistema justiça,5,5,2,1
+AC,Superior,Matriz de formação 2,Sistema sinase,4,4,1,1
+AC,Superior,Matriz de formação 3,Conselhos,2,2,2,0
+AC,Superior,Matriz de formação 3,Outros,5,5,1,0
+AC,Superior,Matriz de formação 3,Sistema justiça,1,1,1,0
+AL,Estudante Superior,Matriz de formação 1,Conselhos,6,3,1,0
+AL,Estudante Superior,Matriz de formação 1,Outros,8,0,0,0
+AL,Estudante Superior,Matriz de formação 1,Sistema justiça,1,1,0,0
+AL,Estudante Superior,Matriz de formação 1,Sistema sinase,5,5,5,3
+AL,Estudante Superior,Matriz de formação 2,Conselhos,5,5,1,0
+AL,Estudante Superior,Matriz de formação 2,Outros,4,4,2,1
+AL,Estudante Superior,Matriz de formação 3,Conselhos,4,4,2,1
+AL,Estudante Superior,Matriz de formação 3,Outros,5,5,3,2
+AL,Mestrando,Matriz de formação 1,Conselhos,1,1,1,0
+AL,Mestrando,Matriz de formação 1,Sistema sinase,1,1,0,0
+AL,Mestrando,Matriz de formação 2,Outros,3,3,3,1
+AL,Mestre,Matriz de formação 1,Outros,1,0,0,0
+AL,Nível Médio,Matriz de formação 1,Conselhos,1,0,0,0
+AL,Nível Médio,Matriz de formação 1,Outros,11,0,0,0
+AL,Nível Médio,Matriz de formação 1,Sistema sinase,6,6,0,0
+AL,Nível Médio,Matriz de formação 2,Conselhos,4,4,0,0
+AL,Nível Médio,Matriz de formação 2,Outros,10,10,5,3
+AL,Nível Médio,Matriz de formação 3,Outros,1,1,0,0
+AL,Superior,Matriz de formação 1,Conselhos,13,11,3,2
+AL,Superior,Matriz de formação 1,Outros,44,0,0,0
+AL,Superior,Matriz de formação 1,Sistema justiça,8,6,3,2
+AL,Superior,Matriz de formação 1,Sistema sinase,14,13,5,4
+AL,Superior,Matriz de formação 2,Conselhos,5,5,2,1
+AL,Superior,Matriz de formação 2,Outros,35,35,19,14
+AL,Superior,Matriz de formação 2,Sistema sinase,3,3,1,1
+AL,Superior,Matriz de formação 3,Conselhos,8,8,5,1
+AL,Superior,Matriz de formação 3,Outros,23,20,14,5
+AL,Superior,Matriz de formação 3,Sistema justiça,2,2,2,1
+AL,Superior,Matriz de formação 3,Sistema sinase,3,3,0,0
+AM,Doutor,Matriz de formação 3,Sistema sinase,1,1,1,1
+AM,Doutorando,Matriz de formação 2,Outros,1,1,0,0
+AM,Estudante Superior,Matriz de formação 1,Outros,1,0,0,0
+AM,Estudante Superior,Matriz de formação 3,Outros,2,2,0,0
+AM,Mestrando,Matriz de formação 1,Conselhos,1,0,0,0
+AM,Mestrando,Matriz de formação 1,Outros,1,0,0,0
+AM,Mestrando,Matriz de formação 3,Outros,4,4,4,2
+AM,Mestre,Matriz de formação 1,Outros,1,0,0,0
+AM,Mestre,Matriz de formação 1,Sistema sinase,1,1,1,0
+AM,Mestre,Matriz de formação 2,Sistema sinase,1,1,0,0
+AM,Mestre,Matriz de formação 3,Sistema sinase,1,1,0,0
+AM,Nível Médio,Matriz de formação 2,Conselhos,1,1,0,0
+AM,Nível Médio,Matriz de formação 2,Outros,1,1,0,0
+AM,Superior,Matriz de formação 1,Conselhos,3,3,1,1
+AM,Superior,Matriz de formação 1,Outros,6,0,0,0
+AM,Superior,Matriz de formação 1,Sistema sinase,8,6,3,1
+AM,Superior,Matriz de formação 2,Conselhos,1,1,1,0
+AM,Superior,Matriz de formação 2,Outros,7,7,3,2
+AM,Superior,Matriz de formação 2,Sistema sinase,1,1,0,0
+AM,Superior,Matriz de formação 3,Conselhos,2,2,0,0
+AM,Superior,Matriz de formação 3,Outros,16,16,5,4
+AM,Superior,Matriz de formação 3,Sistema justiça,1,1,1,1
+AM,Superior,Matriz de formação 3,Sistema sinase,1,0,0,0
+AP,Estudante Superior,Matriz de formação 1,Outros,2,0,0,0
+AP,Estudante Superior,Matriz de formação 1,Sistema justiça,1,1,0,0
+AP,Estudante Superior,Matriz de formação 2,Outros,1,1,1,0
+AP,Mestrando,Matriz de formação 1,Sistema sinase,1,1,1,1
+AP,Mestrando,Matriz de formação 3,Outros,1,1,1,1
+AP,Mestrando,Matriz de formação 3,Sistema sinase,1,1,1,1
+AP,Mestre,Matriz de formação 3,Sistema justiça,1,1,0,0
+AP,Nível Médio,Matriz de formação 1,Sistema sinase,1,1,1,1
+AP,Superior,Matriz de formação 1,Outros,6,0,0,0
+AP,Superior,Matriz de formação 1,Sistema justiça,1,1,0,0
+AP,Superior,Matriz de formação 1,Sistema sinase,13,13,8,6
+AP,Superior,Matriz de formação 2,Outros,2,2,2,0
+AP,Superior,Matriz de formação 2,Sistema justiça,2,2,2,2
+AP,Superior,Matriz de formação 2,Sistema sinase,7,7,5,0
+AP,Superior,Matriz de formação 3,Outros,2,2,1,0
+AP,Superior,Matriz de formação 3,Sistema justiça,4,3,2,2
+AP,Superior,Matriz de formação 3,Sistema sinase,1,1,0,0
+BA,Doutor,Matriz de formação 1,Outros,3,0,0,0
+BA,Estudante Superior,Matriz de formação 1,Conselhos,17,11,7,5
+BA,Estudante Superior,Matriz de formação 1,Outros,47,0,0,0
+BA,Estudante Superior,Matriz de formação 1,Sistema justiça,5,3,2,2
+BA,Estudante Superior,Matriz de formação 1,Sistema sinase,8,6,2,2
+BA,Estudante Superior,Matriz de formação 2,Conselhos,18,18,9,7
+BA,Estudante Superior,Matriz de formação 2,Outros,40,40,19,6
+BA,Estudante Superior,Matriz de formação 2,Sistema justiça,3,3,2,2
+BA,Estudante Superior,Matriz de formação 2,Sistema sinase,7,7,2,0
+BA,Estudante Superior,Matriz de formação 3,Conselhos,22,21,9,4
+BA,Estudante Superior,Matriz de formação 3,Outros,87,86,41,22
+BA,Estudante Superior,Matriz de formação 3,Sistema justiça,6,6,5,3
+BA,Estudante Superior,Matriz de formação 3,Sistema sinase,6,6,1,1
+BA,Mestrando,Matriz de formação 1,Conselhos,1,1,1,1
+BA,Mestrando,Matriz de formação 1,Outros,5,0,0,0
+BA,Mestrando,Matriz de formação 1,Sistema justiça,1,1,1,1
+BA,Mestrando,Matriz de formação 1,Sistema sinase,1,1,0,0
+BA,Mestrando,Matriz de formação 2,Conselhos,1,1,1,1
+BA,Mestrando,Matriz de formação 2,Outros,2,2,0,0
+BA,Mestrando,Matriz de formação 3,Conselhos,1,1,1,0
+BA,Mestrando,Matriz de formação 3,Outros,2,2,1,0
+BA,Mestre,Matriz de formação 1,Outros,3,0,0,0
+BA,Mestre,Matriz de formação 2,Outros,2,2,1,1
+BA,Mestre,Matriz de formação 3,Outros,4,4,1,0
+BA,Mestre,Matriz de formação 3,Sistema justiça,1,1,1,0
+BA,Nível Médio,Matriz de formação 1,Conselhos,6,6,5,3
+BA,Nível Médio,Matriz de formação 1,Outros,5,0,0,0
+BA,Nível Médio,Matriz de formação 1,Sistema justiça,2,0,0,0
+BA,Nível Médio,Matriz de formação 1,Sistema sinase,12,12,6,4
+BA,Nível Médio,Matriz de formação 2,Conselhos,21,21,7,6
+BA,Nível Médio,Matriz de formação 2,Outros,11,11,6,6
+BA,Nível Médio,Matriz de formação 2,Sistema justiça,2,2,0,0
+BA,Nível Médio,Matriz de formação 2,Sistema sinase,1,1,0,0
+BA,Nível Médio,Matriz de formação 3,Conselhos,4,3,0,0
+BA,Nível Médio,Matriz de formação 3,Outros,44,43,14,6
+BA,Nível Médio,Matriz de formação 3,Sistema justiça,3,3,1,0
+BA,Nível Médio,Matriz de formação 3,Sistema sinase,1,1,0,0
+BA,Superior,Matriz de formação 1,Conselhos,39,27,8,6
+BA,Superior,Matriz de formação 1,Outros,146,2,0,0
+BA,Superior,Matriz de formação 1,Sistema justiça,24,16,11,9
+BA,Superior,Matriz de formação 1,Sistema sinase,43,38,29,24
+BA,Superior,Matriz de formação 2,Conselhos,20,20,7,2
+BA,Superior,Matriz de formação 2,Outros,97,97,56,34
+BA,Superior,Matriz de formação 2,Sistema justiça,12,12,7,5
+BA,Superior,Matriz de formação 2,Sistema sinase,14,14,5,3
+BA,Superior,Matriz de formação 3,Conselhos,25,23,12,4
+BA,Superior,Matriz de formação 3,Outros,150,145,86,38
+BA,Superior,Matriz de formação 3,Sistema justiça,13,13,8,3
+BA,Superior,Matriz de formação 3,Sistema sinase,17,17,12,8
+CE,Doutorando,Matriz de formação 1,Outros,1,0,0,0
+CE,Estudante Superior,Matriz de formação 1,Conselhos,3,2,0,0
+CE,Estudante Superior,Matriz de formação 1,Outros,24,0,0,0
+CE,Estudante Superior,Matriz de formação 1,Sistema justiça,5,3,1,1
+CE,Estudante Superior,Matriz de formação 1,Sistema sinase,4,4,2,1
+CE,Estudante Superior,Matriz de formação 2,Conselhos,8,8,2,0
+CE,Estudante Superior,Matriz de formação 2,Outros,18,18,7,3
+CE,Estudante Superior,Matriz de formação 2,Sistema justiça,1,1,0,0
+CE,Estudante Superior,Matriz de formação 3,Conselhos,4,4,2,1
+CE,Estudante Superior,Matriz de formação 3,Outros,27,27,13,7
+CE,Estudante Superior,Matriz de formação 3,Sistema sinase,2,2,1,1
+CE,Mestrando,Matriz de formação 1,Outros,4,0,0,0
+CE,Mestrando,Matriz de formação 1,Sistema justiça,1,1,1,1
+CE,Mestrando,Matriz de formação 1,Sistema sinase,1,1,1,0
+CE,Mestrando,Matriz de formação 2,Conselhos,2,2,1,0
+CE,Mestrando,Matriz de formação 2,Outros,2,2,2,1
+CE,Mestrando,Matriz de formação 2,Sistema sinase,2,2,1,1
+CE,Mestrando,Matriz de formação 3,Outros,1,0,0,0
+CE,Mestrando,Matriz de formação 3,Sistema sinase,2,2,1,1
+CE,Mestre,Matriz de formação 1,Outros,3,0,0,0
+CE,Mestre,Matriz de formação 1,Sistema justiça,1,0,0,0
+CE,Mestre,Matriz de formação 2,Conselhos,2,2,2,1
+CE,Mestre,Matriz de formação 2,Outros,2,2,1,1
+CE,Mestre,Matriz de formação 2,Sistema sinase,1,1,0,0
+CE,Mestre,Matriz de formação 3,Conselhos,3,2,1,0
+CE,Mestre,Matriz de formação 3,Outros,1,1,0,0
+CE,Mestre,Matriz de formação 3,Sistema justiça,1,1,1,1
+CE,Mestre,Matriz de formação 3,Sistema sinase,1,1,0,0
+CE,Nível Médio,Matriz de formação 1,Outros,4,0,0,0
+CE,Nível Médio,Matriz de formação 2,Conselhos,4,4,2,1
+CE,Nível Médio,Matriz de formação 2,Outros,2,2,0,0
+CE,Nível Médio,Matriz de formação 3,Conselhos,2,2,1,0
+CE,Superior,Matriz de formação 1,Conselhos,29,27,13,6
+CE,Superior,Matriz de formação 1,Outros,107,1,0,0
+CE,Superior,Matriz de formação 1,Sistema justiça,13,4,4,2
+CE,Superior,Matriz de formação 1,Sistema sinase,23,20,12,9
+CE,Superior,Matriz de formação 2,Conselhos,10,10,3,0
+CE,Superior,Matriz de formação 2,Outros,42,42,16,8
+CE,Superior,Matriz de formação 2,Sistema justiça,2,2,1,1
+CE,Superior,Matriz de formação 2,Sistema sinase,6,6,5,3
+CE,Superior,Matriz de formação 3,Conselhos,15,14,10,5
+CE,Superior,Matriz de formação 3,Outros,60,56,31,18
+CE,Superior,Matriz de formação 3,Sistema justiça,3,3,0,0
+CE,Superior,Matriz de formação 3,Sistema sinase,12,12,8,7
+DF,Doutor,Matriz de formação 1,Outros,1,1,0,0
+DF,Doutor,Matriz de formação 1,Sistema sinase,5,3,3,2
+DF,Doutor,Matriz de formação 2,Sistema justiça,1,1,0,0
+DF,Doutor,Matriz de formação 3,Sistema sinase,1,1,1,0
+DF,Doutorando,Matriz de formação 1,Outros,2,2,1,1
+DF,Doutorando,Matriz de formação 1,Sistema sinase,3,3,2,2
+DF,Doutorando,Matriz de formação 3,Outros,1,1,0,0
+DF,Doutorando,Matriz de formação 3,Sistema justiça,1,1,1,0
+DF,Estudante Superior,Matriz de formação 1,Conselhos,7,5,1,0
+DF,Estudante Superior,Matriz de formação 1,Outros,31,30,21,13
+DF,Estudante Superior,Matriz de formação 1,Sistema justiça,6,6,5,4
+DF,Estudante Superior,Matriz de formação 1,Sistema sinase,20,16,12,8
+DF,Estudante Superior,Matriz de formação 2,Conselhos,1,1,0,0
+DF,Estudante Superior,Matriz de formação 2,Outros,10,10,4,4
+DF,Estudante Superior,Matriz de formação 2,Sistema justiça,1,1,1,1
+DF,Estudante Superior,Matriz de formação 2,Sistema sinase,6,6,4,3
+DF,Estudante Superior,Matriz de formação 3,Conselhos,2,2,1,1
+DF,Estudante Superior,Matriz de formação 3,Outros,16,16,7,3
+DF,Estudante Superior,Matriz de formação 3,Sistema justiça,1,1,1,1
+DF,Estudante Superior,Matriz de formação 3,Sistema sinase,4,4,0,0
+DF,Mestrando,Matriz de formação 1,Outros,5,4,2,0
+DF,Mestrando,Matriz de formação 1,Sistema sinase,6,5,3,2
+DF,Mestrando,Matriz de formação 2,Outros,1,1,1,1
+DF,Mestrando,Matriz de formação 2,Sistema sinase,1,1,0,0
+DF,Mestrando,Matriz de formação 3,Outros,4,4,4,2
+DF,Mestrando,Matriz de formação 3,Sistema sinase,1,1,1,1
+DF,Mestre,Matriz de formação 1,Conselhos,1,1,0,0
+DF,Mestre,Matriz de formação 1,Outros,3,1,0,0
+DF,Mestre,Matriz de formação 1,Sistema justiça,1,0,0,0
+DF,Mestre,Matriz de formação 1,Sistema sinase,12,12,11,7
+DF,Mestre,Matriz de formação 2,Outros,3,3,2,1
+DF,Mestre,Matriz de formação 2,Sistema sinase,1,1,0,0
+DF,Mestre,Matriz de formação 3,Conselhos,1,1,0,0
+DF,Mestre,Matriz de formação 3,Outros,4,3,2,2
+DF,Mestre,Matriz de formação 3,Sistema sinase,1,1,0,0
+DF,Nível Médio,Matriz de formação 1,Outros,4,4,0,0
+DF,Nível Médio,Matriz de formação 1,Sistema sinase,5,5,1,1
+DF,Nível Médio,Matriz de formação 2,Conselhos,1,1,0,0
+DF,Nível Médio,Matriz de formação 2,Sistema sinase,1,1,1,1
+DF,Nível Médio,Matriz de formação 3,Outros,7,7,2,2
+DF,Nível Médio,Matriz de formação 3,Sistema sinase,3,3,1,0
+DF,Superior,Matriz de formação 1,Conselhos,3,2,1,1
+DF,Superior,Matriz de formação 1,Outros,84,75,52,34
+DF,Superior,Matriz de formação 1,Sistema justiça,15,12,11,9
+DF,Superior,Matriz de formação 1,Sistema sinase,115,103,66,46
+DF,Superior,Matriz de formação 2,Conselhos,3,3,2,0
+DF,Superior,Matriz de formação 2,Outros,30,30,16,12
+DF,Superior,Matriz de formação 2,Sistema justiça,3,3,1,1
+DF,Superior,Matriz de formação 2,Sistema sinase,37,37,21,16
+DF,Superior,Matriz de formação 3,Outros,45,44,21,13
+DF,Superior,Matriz de formação 3,Sistema justiça,2,2,0,0
+DF,Superior,Matriz de formação 3,Sistema sinase,32,28,14,8
+ES,Doutor,Matriz de formação 1,Sistema justiça,1,0,0,0
+ES,Doutorando,Matriz de formação 1,Sistema sinase,1,1,1,1
+ES,Estudante Superior,Matriz de formação 1,Conselhos,3,3,2,1
+ES,Estudante Superior,Matriz de formação 1,Outros,24,1,1,0
+ES,Estudante Superior,Matriz de formação 1,Sistema justiça,2,0,0,0
+ES,Estudante Superior,Matriz de formação 1,Sistema sinase,11,11,3,0
+ES,Estudante Superior,Matriz de formação 2,Conselhos,8,8,5,3
+ES,Estudante Superior,Matriz de formação 2,Outros,16,16,10,4
+ES,Estudante Superior,Matriz de formação 2,Sistema sinase,4,4,3,2
+ES,Estudante Superior,Matriz de formação 3,Outros,22,22,10,6
+ES,Estudante Superior,Matriz de formação 3,Sistema justiça,1,1,1,0
+ES,Estudante Superior,Matriz de formação 3,Sistema sinase,1,1,0,0
+ES,Mestrando,Matriz de formação 1,Sistema sinase,4,3,2,1
+ES,Mestrando,Matriz de formação 2,Sistema sinase,1,1,1,1
+ES,Mestrando,Matriz de formação 3,Outros,1,1,1,1
+ES,Mestrando,Matriz de formação 3,Sistema justiça,2,2,1,0
+ES,Mestre,Matriz de formação 1,Outros,1,0,0,0
+ES,Mestre,Matriz de formação 1,Sistema justiça,2,0,0,0
+ES,Mestre,Matriz de formação 2,Outros,2,2,2,2
+ES,Mestre,Matriz de formação 3,Sistema justiça,4,4,4,4
+ES,Nível Médio,Matriz de formação 1,Conselhos,5,2,0,0
+ES,Nível Médio,Matriz de formação 1,Outros,10,0,0,0
+ES,Nível Médio,Matriz de formação 1,Sistema justiça,1,1,0,0
+ES,Nível Médio,Matriz de formação 1,Sistema sinase,14,13,6,2
+ES,Nível Médio,Matriz de formação 2,Conselhos,2,2,1,0
+ES,Nível Médio,Matriz de formação 2,Outros,15,15,5,2
+ES,Nível Médio,Matriz de formação 2,Sistema justiça,5,5,2,1
+ES,Nível Médio,Matriz de formação 2,Sistema sinase,5,5,1,0
+ES,Nível Médio,Matriz de formação 3,Conselhos,2,2,1,1
+ES,Nível Médio,Matriz de formação 3,Outros,4,4,2,1
+ES,Nível Médio,Matriz de formação 3,Sistema sinase,1,1,1,1
+ES,Superior,Matriz de formação 1,Conselhos,28,21,8,6
+ES,Superior,Matriz de formação 1,Outros,104,1,1,1
+ES,Superior,Matriz de formação 1,Sistema justiça,15,11,8,7
+ES,Superior,Matriz de formação 1,Sistema sinase,109,98,68,54
+ES,Superior,Matriz de formação 2,Conselhos,16,16,7,5
+ES,Superior,Matriz de formação 2,Outros,82,82,49,33
+ES,Superior,Matriz de formação 2,Sistema justiça,21,21,12,9
+ES,Superior,Matriz de formação 2,Sistema sinase,22,22,12,8
+ES,Superior,Matriz de formação 3,Conselhos,13,13,8,4
+ES,Superior,Matriz de formação 3,Outros,48,48,31,17
+ES,Superior,Matriz de formação 3,Sistema justiça,29,29,23,19
+ES,Superior,Matriz de formação 3,Sistema sinase,10,10,9,7
+GO,Doutorando,Matriz de formação 2,Outros,1,1,0,0
+GO,Estudante Superior,Matriz de formação 1,Conselhos,2,2,2,1
+GO,Estudante Superior,Matriz de formação 1,Outros,4,0,0,0
+GO,Estudante Superior,Matriz de formação 1,Sistema sinase,4,4,2,0
+GO,Estudante Superior,Matriz de formação 2,Conselhos,2,2,0,0
+GO,Estudante Superior,Matriz de formação 2,Outros,5,5,2,2
+GO,Estudante Superior,Matriz de formação 2,Sistema justiça,2,2,2,2
+GO,Estudante Superior,Matriz de formação 3,Conselhos,1,1,1,1
+GO,Estudante Superior,Matriz de formação 3,Outros,8,8,5,2
+GO,Estudante Superior,Matriz de formação 3,Sistema justiça,3,3,1,0
+GO,Mestrando,Matriz de formação 1,Sistema sinase,1,1,1,0
+GO,Mestrando,Matriz de formação 2,Outros,1,1,1,0
+GO,Mestrando,Matriz de formação 2,Sistema sinase,1,1,1,1
+GO,Mestrando,Matriz de formação 3,Outros,1,1,0,0
+GO,Mestre,Matriz de formação 1,Outros,1,0,0,0
+GO,Mestre,Matriz de formação 1,Sistema sinase,1,1,1,1
+GO,Mestre,Matriz de formação 2,Outros,1,1,0,0
+GO,Mestre,Matriz de formação 3,Outros,2,2,2,2
+GO,Mestre,Matriz de formação 3,Sistema sinase,1,1,1,1
+GO,Nível Médio,Matriz de formação 1,Outros,2,0,0,0
+GO,Nível Médio,Matriz de formação 1,Sistema justiça,1,1,1,1
+GO,Nível Médio,Matriz de formação 2,Outros,2,2,0,0
+GO,Nível Médio,Matriz de formação 3,Outros,1,1,1,1
+GO,Nível Médio,Matriz de formação 3,Sistema sinase,1,1,0,0
+GO,Superior,Matriz de formação 1,Conselhos,1,1,1,0
+GO,Superior,Matriz de formação 1,Outros,20,1,0,0
+GO,Superior,Matriz de formação 1,Sistema justiça,8,2,2,2
+GO,Superior,Matriz de formação 1,Sistema sinase,30,25,13,9
+GO,Superior,Matriz de formação 2,Conselhos,4,4,3,1
+GO,Superior,Matriz de formação 2,Outros,16,16,11,5
+GO,Superior,Matriz de formação 2,Sistema justiça,2,2,1,1
+GO,Superior,Matriz de formação 2,Sistema sinase,10,10,7,2
+GO,Superior,Matriz de formação 3,Conselhos,2,2,1,0
+GO,Superior,Matriz de formação 3,Outros,27,25,15,11
+GO,Superior,Matriz de formação 3,Sistema justiça,1,1,1,1
+GO,Superior,Matriz de formação 3,Sistema sinase,8,8,3,1
+MA,Estudante Superior,Matriz de formação 1,Conselhos,5,4,1,0
+MA,Estudante Superior,Matriz de formação 1,Outros,3,0,0,0
+MA,Estudante Superior,Matriz de formação 1,Sistema justiça,3,1,1,1
+MA,Estudante Superior,Matriz de formação 1,Sistema sinase,3,3,1,0
+MA,Estudante Superior,Matriz de formação 2,Conselhos,2,2,0,0
+MA,Estudante Superior,Matriz de formação 2,Outros,6,6,2,2
+MA,Estudante Superior,Matriz de formação 2,Sistema justiça,2,2,1,0
+MA,Estudante Superior,Matriz de formação 3,Conselhos,3,3,3,2
+MA,Estudante Superior,Matriz de formação 3,Outros,2,2,0,0
+MA,Estudante Superior,Matriz de formação 3,Sistema justiça,3,3,3,1
+MA,Mestrando,Matriz de formação 1,Sistema justiça,1,1,1,1
+MA,Mestrando,Matriz de formação 2,Sistema sinase,1,1,0,0
+MA,Mestre,Matriz de formação 1,Sistema justiça,1,1,1,1
+MA,Nível Médio,Matriz de formação 1,Outros,3,0,0,0
+MA,Nível Médio,Matriz de formação 1,Sistema justiça,1,1,0,0
+MA,Nível Médio,Matriz de formação 1,Sistema sinase,2,2,0,0
+MA,Nível Médio,Matriz de formação 2,Conselhos,12,12,1,1
+MA,Nível Médio,Matriz de formação 2,Outros,1,1,0,0
+MA,Nível Médio,Matriz de formação 3,Conselhos,1,1,0,0
+MA,Superior,Matriz de formação 1,Conselhos,9,7,3,2
+MA,Superior,Matriz de formação 1,Outros,47,0,0,0
+MA,Superior,Matriz de formação 1,Sistema justiça,32,20,9,9
+MA,Superior,Matriz de formação 1,Sistema sinase,30,27,17,10
+MA,Superior,Matriz de formação 2,Conselhos,6,6,2,2
+MA,Superior,Matriz de formação 2,Outros,15,15,9,5
+MA,Superior,Matriz de formação 2,Sistema justiça,9,9,5,5
+MA,Superior,Matriz de formação 2,Sistema sinase,2,2,0,0
+MA,Superior,Matriz de formação 3,Conselhos,3,3,2,0
+MA,Superior,Matriz de formação 3,Outros,6,6,1,0
+MA,Superior,Matriz de formação 3,Sistema justiça,8,8,7,5
+MA,Superior,Matriz de formação 3,Sistema sinase,6,6,5,4
+MG,Doutor,Matriz de formação 1,Sistema justiça,1,1,0,0
+MG,Doutorando,Matriz de formação 1,Outros,2,0,0,0
+MG,Doutorando,Matriz de formação 1,Sistema sinase,1,1,0,0
+MG,Estudante Superior,Matriz de formação 1,Conselhos,9,7,3,1
+MG,Estudante Superior,Matriz de formação 1,Outros,21,0,0,0
+MG,Estudante Superior,Matriz de formação 1,Sistema justiça,4,3,1,1
+MG,Estudante Superior,Matriz de formação 1,Sistema sinase,12,12,8,4
+MG,Estudante Superior,Matriz de formação 2,Conselhos,9,9,7,4
+MG,Estudante Superior,Matriz de formação 2,Outros,20,20,13,5
+MG,Estudante Superior,Matriz de formação 2,Sistema justiça,4,4,1,0
+MG,Estudante Superior,Matriz de formação 2,Sistema sinase,2,2,1,0
+MG,Estudante Superior,Matriz de formação 3,Conselhos,9,9,2,2
+MG,Estudante Superior,Matriz de formação 3,Outros,18,17,7,3
+MG,Estudante Superior,Matriz de formação 3,Sistema sinase,1,0,0,0
+MG,Mestrando,Matriz de formação 1,Conselhos,2,2,2,2
+MG,Mestrando,Matriz de formação 1,Outros,3,0,0,0
+MG,Mestrando,Matriz de formação 1,Sistema sinase,3,3,2,1
+MG,Mestrando,Matriz de formação 2,Outros,3,3,2,2
+MG,Mestrando,Matriz de formação 3,Outros,1,1,0,0
+MG,Mestre,Matriz de formação 1,Conselhos,3,2,1,0
+MG,Mestre,Matriz de formação 1,Outros,1,0,0,0
+MG,Mestre,Matriz de formação 1,Sistema sinase,4,3,3,2
+MG,Mestre,Matriz de formação 2,Conselhos,1,1,1,1
+MG,Mestre,Matriz de formação 2,Outros,3,3,0,0
+MG,Mestre,Matriz de formação 2,Sistema justiça,1,1,1,1
+MG,Mestre,Matriz de formação 2,Sistema sinase,2,2,1,1
+MG,Mestre,Matriz de formação 3,Outros,3,3,2,1
+MG,Mestre,Matriz de formação 3,Sistema sinase,1,1,1,0
+MG,Nível Médio,Matriz de formação 1,Conselhos,5,5,1,0
+MG,Nível Médio,Matriz de formação 1,Outros,9,0,0,0
+MG,Nível Médio,Matriz de formação 1,Sistema justiça,1,1,0,0
+MG,Nível Médio,Matriz de formação 1,Sistema sinase,8,8,3,3
+MG,Nível Médio,Matriz de formação 2,Conselhos,18,18,3,0
+MG,Nível Médio,Matriz de formação 2,Outros,13,13,5,4
+MG,Nível Médio,Matriz de formação 2,Sistema justiça,1,1,0,0
+MG,Nível Médio,Matriz de formação 2,Sistema sinase,2,2,1,1
+MG,Nível Médio,Matriz de formação 3,Conselhos,3,3,2,0
+MG,Nível Médio,Matriz de formação 3,Outros,1,1,1,0
+MG,Nível Médio,Matriz de formação 3,Sistema sinase,4,3,0,0
+MG,Superior,Matriz de formação 1,Conselhos,40,36,22,11
+MG,Superior,Matriz de formação 1,Outros,160,1,0,0
+MG,Superior,Matriz de formação 1,Sistema justiça,44,30,21,16
+MG,Superior,Matriz de formação 1,Sistema sinase,126,118,70,50
+MG,Superior,Matriz de formação 2,Conselhos,25,25,9,6
+MG,Superior,Matriz de formação 2,Outros,77,77,33,20
+MG,Superior,Matriz de formação 2,Sistema justiça,14,14,7,4
+MG,Superior,Matriz de formação 2,Sistema sinase,29,29,9,5
+MG,Superior,Matriz de formação 3,Conselhos,7,7,5,4
+MG,Superior,Matriz de formação 3,Outros,53,52,31,15
+MG,Superior,Matriz de formação 3,Sistema justiça,9,9,5,1
+MG,Superior,Matriz de formação 3,Sistema sinase,34,33,24,9
+MS,Doutor,Matriz de formação 2,Sistema justiça,1,1,0,0
+MS,Doutorando,Matriz de formação 2,Sistema justiça,1,1,1,1
+MS,Estudante Superior,Matriz de formação 1,Conselhos,4,4,1,1
+MS,Estudante Superior,Matriz de formação 1,Outros,5,0,0,0
+MS,Estudante Superior,Matriz de formação 1,Sistema justiça,4,1,0,0
+MS,Estudante Superior,Matriz de formação 1,Sistema sinase,5,4,2,1
+MS,Estudante Superior,Matriz de formação 2,Conselhos,4,4,1,1
+MS,Estudante Superior,Matriz de formação 2,Outros,3,3,0,0
+MS,Estudante Superior,Matriz de formação 2,Sistema sinase,2,2,1,1
+MS,Estudante Superior,Matriz de formação 3,Conselhos,1,1,1,1
+MS,Estudante Superior,Matriz de formação 3,Outros,1,1,1,0
+MS,Mestrando,Matriz de formação 1,Conselhos,1,1,0,0
+MS,Mestrando,Matriz de formação 1,Outros,2,0,0,0
+MS,Mestrando,Matriz de formação 1,Sistema justiça,1,1,0,0
+MS,Mestrando,Matriz de formação 1,Sistema sinase,1,1,0,0
+MS,Mestrando,Matriz de formação 2,Sistema sinase,1,1,1,1
+MS,Mestrando,Matriz de formação 3,Conselhos,1,1,0,0
+MS,Mestre,Matriz de formação 1,Sistema justiça,1,0,0,0
+MS,Nível Médio,Matriz de formação 1,Outros,1,0,0,0
+MS,Nível Médio,Matriz de formação 1,Sistema justiça,1,0,0,0
+MS,Nível Médio,Matriz de formação 1,Sistema sinase,3,1,0,0
+MS,Nível Médio,Matriz de formação 2,Conselhos,2,2,1,0
+MS,Nível Médio,Matriz de formação 2,Outros,1,1,1,0
+MS,Nível Médio,Matriz de formação 3,Sistema sinase,1,1,0,0
+MS,Superior,Matriz de formação 1,Conselhos,24,20,12,8
+MS,Superior,Matriz de formação 1,Outros,29,0,0,0
+MS,Superior,Matriz de formação 1,Sistema justiça,9,6,5,4
+MS,Superior,Matriz de formação 1,Sistema sinase,38,31,23,18
+MS,Superior,Matriz de formação 2,Conselhos,11,11,4,3
+MS,Superior,Matriz de formação 2,Outros,10,10,4,0
+MS,Superior,Matriz de formação 2,Sistema justiça,4,4,2,2
+MS,Superior,Matriz de formação 2,Sistema sinase,5,5,3,2
+MS,Superior,Matriz de formação 3,Conselhos,2,2,1,0
+MS,Superior,Matriz de formação 3,Outros,14,13,10,4
+MS,Superior,Matriz de formação 3,Sistema justiça,1,1,0,0
+MS,Superior,Matriz de formação 3,Sistema sinase,8,7,3,3
+MT,Estudante Superior,Matriz de formação 1,Conselhos,1,0,0,0
+MT,Estudante Superior,Matriz de formação 1,Outros,6,0,0,0
+MT,Estudante Superior,Matriz de formação 1,Sistema sinase,3,3,2,1
+MT,Estudante Superior,Matriz de formação 2,Conselhos,5,5,2,1
+MT,Estudante Superior,Matriz de formação 2,Outros,7,7,0,0
+MT,Estudante Superior,Matriz de formação 2,Sistema justiça,1,1,0,0
+MT,Estudante Superior,Matriz de formação 2,Sistema sinase,1,1,0,0
+MT,Estudante Superior,Matriz de formação 3,Outros,3,2,0,0
+MT,Estudante Superior,Matriz de formação 3,Sistema justiça,1,1,0,0
+MT,Estudante Superior,Matriz de formação 3,Sistema sinase,4,4,3,1
+MT,Mestrando,Matriz de formação 1,Conselhos,1,0,0,0
+MT,Mestrando,Matriz de formação 1,Outros,1,0,0,0
+MT,Mestrando,Matriz de formação 3,Outros,1,1,1,0
+MT,Mestre,Matriz de formação 1,Sistema sinase,1,1,1,0
+MT,Mestre,Matriz de formação 2,Outros,1,1,1,1
+MT,Mestre,Matriz de formação 3,Conselhos,1,1,0,0
+MT,Nível Médio,Matriz de formação 1,Conselhos,1,0,0,0
+MT,Nível Médio,Matriz de formação 1,Outros,2,0,0,0
+MT,Nível Médio,Matriz de formação 1,Sistema sinase,1,1,0,0
+MT,Nível Médio,Matriz de formação 2,Conselhos,5,5,1,0
+MT,Nível Médio,Matriz de formação 2,Outros,2,2,0,0
+MT,Nível Médio,Matriz de formação 3,Outros,5,5,3,1
+MT,Nível Médio,Matriz de formação 3,Sistema justiça,2,2,1,0
+MT,Nível Médio,Matriz de formação 3,Sistema sinase,4,4,1,0
+MT,Superior,Matriz de formação 1,Conselhos,7,5,2,1
+MT,Superior,Matriz de formação 1,Outros,27,0,0,0
+MT,Superior,Matriz de formação 1,Sistema justiça,6,2,1,1
+MT,Superior,Matriz de formação 1,Sistema sinase,26,22,21,16
+MT,Superior,Matriz de formação 2,Conselhos,2,2,0,0
+MT,Superior,Matriz de formação 2,Outros,20,20,8,5
+MT,Superior,Matriz de formação 2,Sistema justiça,2,2,0,0
+MT,Superior,Matriz de formação 2,Sistema sinase,8,8,2,2
+MT,Superior,Matriz de formação 3,Conselhos,6,6,4,2
+MT,Superior,Matriz de formação 3,Outros,27,25,8,4
+MT,Superior,Matriz de formação 3,Sistema justiça,4,4,4,2
+MT,Superior,Matriz de formação 3,Sistema sinase,19,18,10,8
+PA,Doutor,Matriz de formação 3,Sistema sinase,1,1,0,0
+PA,Doutorando,Matriz de formação 1,Conselhos,1,0,0,0
+PA,Estudante Superior,Matriz de formação 1,Conselhos,5,5,4,2
+PA,Estudante Superior,Matriz de formação 1,Outros,6,0,0,0
+PA,Estudante Superior,Matriz de formação 1,Sistema justiça,3,0,0,0
+PA,Estudante Superior,Matriz de formação 2,Outros,4,4,2,2
+PA,Estudante Superior,Matriz de formação 2,Sistema justiça,3,3,0,0
+PA,Estudante Superior,Matriz de formação 3,Outros,2,2,0,0
+PA,Mestrando,Matriz de formação 1,Conselhos,1,0,0,0
+PA,Mestrando,Matriz de formação 1,Outros,1,0,0,0
+PA,Mestrando,Matriz de formação 1,Sistema justiça,1,1,0,0
+PA,Mestrando,Matriz de formação 1,Sistema sinase,1,1,1,0
+PA,Mestrando,Matriz de formação 2,Sistema justiça,1,1,1,1
+PA,Mestrando,Matriz de formação 3,Outros,3,3,2,1
+PA,Mestrando,Matriz de formação 3,Sistema sinase,1,1,0,0
+PA,Mestre,Matriz de formação 1,Sistema justiça,5,4,4,4
+PA,Mestre,Matriz de formação 1,Sistema sinase,1,1,1,1
+PA,Mestre,Matriz de formação 2,Outros,1,1,0,0
+PA,Mestre,Matriz de formação 2,Sistema justiça,2,2,1,1
+PA,Mestre,Matriz de formação 3,Outros,1,1,0,0
+PA,Nível Médio,Matriz de formação 1,Sistema justiça,1,0,0,0
+PA,Nível Médio,Matriz de formação 2,Conselhos,3,3,0,0
+PA,Nível Médio,Matriz de formação 2,Outros,3,3,1,0
+PA,Nível Médio,Matriz de formação 3,Outros,1,1,0,0
+PA,Nível Médio,Matriz de formação 3,Sistema sinase,2,2,0,0
+PA,Superior,Matriz de formação 1,Conselhos,5,5,2,0
+PA,Superior,Matriz de formação 1,Outros,47,0,0,0
+PA,Superior,Matriz de formação 1,Sistema justiça,35,22,17,16
+PA,Superior,Matriz de formação 1,Sistema sinase,14,14,7,6
+PA,Superior,Matriz de formação 2,Conselhos,1,1,0,0
+PA,Superior,Matriz de formação 2,Outros,26,26,7,3
+PA,Superior,Matriz de formação 2,Sistema justiça,10,10,6,5
+PA,Superior,Matriz de formação 2,Sistema sinase,7,7,1,1
+PA,Superior,Matriz de formação 3,Outros,17,16,8,5
+PA,Superior,Matriz de formação 3,Sistema justiça,1,1,1,1
+PA,Superior,Matriz de formação 3,Sistema sinase,5,5,3,2
+PB,Doutor,Matriz de formação 1,Outros,1,0,0,0
+PB,Doutorando,Matriz de formação 1,Sistema justiça,1,0,0,0
+PB,Doutorando,Matriz de formação 2,Outros,1,1,1,0
+PB,Doutorando,Matriz de formação 3,Sistema justiça,1,1,0,0
+PB,Estudante Superior,Matriz de formação 1,Conselhos,4,3,1,0
+PB,Estudante Superior,Matriz de formação 1,Outros,15,0,0,0
+PB,Estudante Superior,Matriz de formação 1,Sistema justiça,8,6,4,4
+PB,Estudante Superior,Matriz de formação 1,Sistema sinase,6,6,1,1
+PB,Estudante Superior,Matriz de formação 2,Conselhos,2,2,0,0
+PB,Estudante Superior,Matriz de formação 2,Outros,3,3,1,0
+PB,Estudante Superior,Matriz de formação 2,Sistema justiça,1,1,0,0
+PB,Estudante Superior,Matriz de formação 2,Sistema sinase,1,1,0,0
+PB,Estudante Superior,Matriz de formação 3,Conselhos,8,7,6,2
+PB,Estudante Superior,Matriz de formação 3,Outros,6,6,4,2
+PB,Estudante Superior,Matriz de formação 3,Sistema sinase,1,1,1,1
+PB,Mestrando,Matriz de formação 1,Outros,5,0,0,0
+PB,Mestrando,Matriz de formação 1,Sistema sinase,1,1,1,1
+PB,Mestrando,Matriz de formação 2,Conselhos,1,1,0,0
+PB,Mestrando,Matriz de formação 2,Outros,3,3,2,1
+PB,Mestre,Matriz de formação 1,Conselhos,1,1,1,1
+PB,Mestre,Matriz de formação 1,Sistema justiça,1,1,0,0
+PB,Mestre,Matriz de formação 1,Sistema sinase,2,2,1,1
+PB,Mestre,Matriz de formação 2,Conselhos,1,1,0,0
+PB,Mestre,Matriz de formação 2,Outros,2,2,0,0
+PB,Mestre,Matriz de formação 2,Sistema justiça,1,1,0,0
+PB,Mestre,Matriz de formação 3,Sistema justiça,1,1,0,0
+PB,Nível Médio,Matriz de formação 1,Conselhos,1,1,0,0
+PB,Nível Médio,Matriz de formação 1,Outros,6,0,0,0
+PB,Nível Médio,Matriz de formação 2,Conselhos,7,7,2,1
+PB,Nível Médio,Matriz de formação 2,Outros,3,3,1,0
+PB,Nível Médio,Matriz de formação 2,Sistema sinase,2,2,1,1
+PB,Nível Médio,Matriz de formação 3,Conselhos,2,2,0,0
+PB,Nível Médio,Matriz de formação 3,Outros,2,2,1,0
+PB,Nível Médio,Matriz de formação 3,Sistema sinase,1,1,0,0
+PB,Superior,Matriz de formação 1,Conselhos,22,16,9,3
+PB,Superior,Matriz de formação 1,Outros,94,0,0,0
+PB,Superior,Matriz de formação 1,Sistema justiça,26,12,7,5
+PB,Superior,Matriz de formação 1,Sistema sinase,49,44,21,13
+PB,Superior,Matriz de formação 2,Conselhos,8,8,3,1
+PB,Superior,Matriz de formação 2,Outros,33,33,22,16
+PB,Superior,Matriz de formação 2,Sistema justiça,5,5,2,2
+PB,Superior,Matriz de formação 2,Sistema sinase,8,8,4,0
+PB,Superior,Matriz de formação 3,Conselhos,8,7,3,2
+PB,Superior,Matriz de formação 3,Outros,21,20,12,9
+PB,Superior,Matriz de formação 3,Sistema justiça,3,3,1,1
+PB,Superior,Matriz de formação 3,Sistema sinase,4,4,1,0
+PE,Doutor,Matriz de formação 2,Outros,1,1,0,0
+PE,Doutorando,Matriz de formação 2,Sistema justiça,1,1,1,1
+PE,Estudante Superior,Matriz de formação 1,Conselhos,6,4,1,1
+PE,Estudante Superior,Matriz de formação 1,Outros,23,0,0,0
+PE,Estudante Superior,Matriz de formação 1,Sistema justiça,3,3,0,0
+PE,Estudante Superior,Matriz de formação 1,Sistema sinase,2,2,1,1
+PE,Estudante Superior,Matriz de formação 2,Conselhos,3,3,1,0
+PE,Estudante Superior,Matriz de formação 2,Outros,26,26,7,3
+PE,Estudante Superior,Matriz de formação 2,Sistema justiça,4,4,3,1
+PE,Estudante Superior,Matriz de formação 2,Sistema sinase,2,2,0,0
+PE,Estudante Superior,Matriz de formação 3,Conselhos,6,6,2,0
+PE,Estudante Superior,Matriz de formação 3,Outros,43,42,22,12
+PE,Estudante Superior,Matriz de formação 3,Sistema justiça,3,3,1,1
+PE,Estudante Superior,Matriz de formação 3,Sistema sinase,6,6,1,0
+PE,Mestrando,Matriz de formação 1,Outros,2,0,0,0
+PE,Mestrando,Matriz de formação 1,Sistema justiça,2,2,1,1
+PE,Mestrando,Matriz de formação 1,Sistema sinase,2,0,0,0
+PE,Mestrando,Matriz de formação 2,Conselhos,1,1,0,0
+PE,Mestrando,Matriz de formação 2,Outros,1,1,1,1
+PE,Mestrando,Matriz de formação 2,Sistema justiça,3,3,2,2
+PE,Mestrando,Matriz de formação 3,Outros,4,4,0,0
+PE,Mestre,Matriz de formação 1,Conselhos,1,1,1,0
+PE,Mestre,Matriz de formação 1,Sistema justiça,4,3,2,2
+PE,Mestre,Matriz de formação 2,Conselhos,1,1,0,0
+PE,Mestre,Matriz de formação 2,Outros,1,1,0,0
+PE,Mestre,Matriz de formação 2,Sistema justiça,2,2,1,1
+PE,Mestre,Matriz de formação 3,Outros,2,2,0,0
+PE,Nível Médio,Matriz de formação 1,Conselhos,2,1,0,0
+PE,Nível Médio,Matriz de formação 1,Outros,22,0,0,0
+PE,Nível Médio,Matriz de formação 1,Sistema justiça,1,0,0,0
+PE,Nível Médio,Matriz de formação 1,Sistema sinase,8,8,2,0
+PE,Nível Médio,Matriz de formação 2,Conselhos,7,7,1,0
+PE,Nível Médio,Matriz de formação 2,Outros,28,28,3,1
+PE,Nível Médio,Matriz de formação 2,Sistema justiça,1,1,0,0
+PE,Nível Médio,Matriz de formação 2,Sistema sinase,1,1,0,0
+PE,Nível Médio,Matriz de formação 3,Conselhos,2,2,2,1
+PE,Nível Médio,Matriz de formação 3,Outros,8,8,4,1
+PE,Nível Médio,Matriz de formação 3,Sistema justiça,2,2,1,0
+PE,Nível Médio,Matriz de formação 3,Sistema sinase,3,3,2,1
+PE,Superior,Matriz de formação 1,Conselhos,13,11,5,4
+PE,Superior,Matriz de formação 1,Outros,91,2,1,1
+PE,Superior,Matriz de formação 1,Sistema justiça,28,20,11,4
+PE,Superior,Matriz de formação 1,Sistema sinase,48,40,26,21
+PE,Superior,Matriz de formação 2,Conselhos,9,9,4,3
+PE,Superior,Matriz de formação 2,Outros,59,59,26,11
+PE,Superior,Matriz de formação 2,Sistema justiça,12,12,6,6
+PE,Superior,Matriz de formação 2,Sistema sinase,14,14,6,2
+PE,Superior,Matriz de formação 3,Conselhos,9,9,5,3
+PE,Superior,Matriz de formação 3,Outros,80,79,48,21
+PE,Superior,Matriz de formação 3,Sistema justiça,6,6,1,1
+PE,Superior,Matriz de formação 3,Sistema sinase,19,19,9,5
+PI,Doutor,Matriz de formação 2,Sistema sinase,1,1,0,0
+PI,Estudante Superior,Matriz de formação 1,Conselhos,1,0,0,0
+PI,Estudante Superior,Matriz de formação 1,Outros,4,0,0,0
+PI,Estudante Superior,Matriz de formação 1,Sistema justiça,1,1,0,0
+PI,Estudante Superior,Matriz de formação 1,Sistema sinase,2,2,1,1
+PI,Estudante Superior,Matriz de formação 2,Outros,1,1,0,0
+PI,Estudante Superior,Matriz de formação 3,Conselhos,1,1,1,1
+PI,Estudante Superior,Matriz de formação 3,Outros,4,4,2,2
+PI,Estudante Superior,Matriz de formação 3,Sistema justiça,1,1,1,1
+PI,Mestre,Matriz de formação 1,Sistema justiça,2,2,1,0
+PI,Mestre,Matriz de formação 2,Sistema sinase,1,1,1,0
+PI,Mestre,Matriz de formação 3,Outros,3,3,2,2
+PI,Nível Médio,Matriz de formação 1,Outros,3,0,0,0
+PI,Nível Médio,Matriz de formação 2,Conselhos,1,1,0,0
+PI,Nível Médio,Matriz de formação 3,Outros,3,3,0,0
+PI,Nível Médio,Matriz de formação 3,Sistema justiça,2,2,0,0
+PI,Nível Médio,Matriz de formação 3,Sistema sinase,3,3,0,0
+PI,Superior,Matriz de formação 1,Conselhos,5,3,2,0
+PI,Superior,Matriz de formação 1,Outros,12,0,0,0
+PI,Superior,Matriz de formação 1,Sistema justiça,4,4,4,2
+PI,Superior,Matriz de formação 1,Sistema sinase,16,15,9,8
+PI,Superior,Matriz de formação 2,Conselhos,1,1,0,0
+PI,Superior,Matriz de formação 2,Outros,7,7,5,2
+PI,Superior,Matriz de formação 2,Sistema justiça,3,3,2,1
+PI,Superior,Matriz de formação 2,Sistema sinase,1,1,0,0
+PI,Superior,Matriz de formação 3,Outros,18,18,11,5
+PI,Superior,Matriz de formação 3,Sistema justiça,3,3,1,1
+PI,Superior,Matriz de formação 3,Sistema sinase,8,7,3,3
+PR,Doutor,Matriz de formação 2,Conselhos,1,1,1,1
+PR,Doutor,Matriz de formação 2,Outros,1,1,1,1
+PR,Doutorando,Matriz de formação 1,Outros,1,0,0,0
+PR,Doutorando,Matriz de formação 2,Conselhos,1,1,0,0
+PR,Doutorando,Matriz de formação 2,Outros,3,3,2,2
+PR,Doutorando,Matriz de formação 2,Sistema sinase,1,1,1,1
+PR,Estudante Superior,Matriz de formação 1,Conselhos,5,4,0,0
+PR,Estudante Superior,Matriz de formação 1,Outros,30,0,0,0
+PR,Estudante Superior,Matriz de formação 1,Sistema justiça,3,3,1,1
+PR,Estudante Superior,Matriz de formação 1,Sistema sinase,24,24,17,13
+PR,Estudante Superior,Matriz de formação 2,Conselhos,16,16,7,4
+PR,Estudante Superior,Matriz de formação 2,Outros,36,36,18,11
+PR,Estudante Superior,Matriz de formação 2,Sistema justiça,4,4,2,1
+PR,Estudante Superior,Matriz de formação 2,Sistema sinase,11,11,7,3
+PR,Estudante Superior,Matriz de formação 3,Conselhos,5,5,2,1
+PR,Estudante Superior,Matriz de formação 3,Outros,25,25,10,1
+PR,Estudante Superior,Matriz de formação 3,Sistema justiça,2,2,2,2
+PR,Estudante Superior,Matriz de formação 3,Sistema sinase,18,18,6,3
+PR,Mestrando,Matriz de formação 1,Outros,5,0,0,0
+PR,Mestrando,Matriz de formação 1,Sistema justiça,1,1,0,0
+PR,Mestrando,Matriz de formação 1,Sistema sinase,6,5,3,2
+PR,Mestrando,Matriz de formação 2,Conselhos,3,3,0,0
+PR,Mestrando,Matriz de formação 2,Outros,4,4,2,2
+PR,Mestrando,Matriz de formação 2,Sistema sinase,2,2,2,2
+PR,Mestrando,Matriz de formação 3,Conselhos,2,2,1,0
+PR,Mestrando,Matriz de formação 3,Outros,4,4,4,2
+PR,Mestre,Matriz de formação 1,Conselhos,1,1,0,0
+PR,Mestre,Matriz de formação 1,Outros,8,0,0,0
+PR,Mestre,Matriz de formação 1,Sistema sinase,6,5,3,3
+PR,Mestre,Matriz de formação 2,Conselhos,1,1,0,0
+PR,Mestre,Matriz de formação 2,Outros,14,14,10,4
+PR,Mestre,Matriz de formação 2,Sistema justiça,3,3,2,1
+PR,Mestre,Matriz de formação 2,Sistema sinase,2,2,2,1
+PR,Mestre,Matriz de formação 3,Conselhos,2,1,0,0
+PR,Mestre,Matriz de formação 3,Outros,9,8,2,2
+PR,Mestre,Matriz de formação 3,Sistema sinase,5,5,3,3
+PR,Nível Médio,Matriz de formação 1,Conselhos,4,2,0,0
+PR,Nível Médio,Matriz de formação 1,Outros,9,1,1,1
+PR,Nível Médio,Matriz de formação 1,Sistema justiça,3,3,0,0
+PR,Nível Médio,Matriz de formação 1,Sistema sinase,10,10,7,6
+PR,Nível Médio,Matriz de formação 2,Conselhos,38,38,13,9
+PR,Nível Médio,Matriz de formação 2,Outros,13,13,6,2
+PR,Nível Médio,Matriz de formação 2,Sistema justiça,2,2,1,1
+PR,Nível Médio,Matriz de formação 2,Sistema sinase,6,6,4,2
+PR,Nível Médio,Matriz de formação 3,Conselhos,4,3,1,0
+PR,Nível Médio,Matriz de formação 3,Outros,13,13,3,2
+PR,Nível Médio,Matriz de formação 3,Sistema sinase,16,16,3,1
+PR,Superior,Matriz de formação 1,Conselhos,73,54,26,15
+PR,Superior,Matriz de formação 1,Outros,141,2,1,1
+PR,Superior,Matriz de formação 1,Sistema justiça,16,10,4,1
+PR,Superior,Matriz de formação 1,Sistema sinase,147,120,80,56
+PR,Superior,Matriz de formação 2,Conselhos,56,56,33,18
+PR,Superior,Matriz de formação 2,Outros,148,148,91,60
+PR,Superior,Matriz de formação 2,Sistema justiça,9,9,5,4
+PR,Superior,Matriz de formação 2,Sistema sinase,55,55,36,19
+PR,Superior,Matriz de formação 3,Conselhos,15,15,9,3
+PR,Superior,Matriz de formação 3,Outros,140,134,69,40
+PR,Superior,Matriz de formação 3,Sistema justiça,16,16,10,6
+PR,Superior,Matriz de formação 3,Sistema sinase,48,46,32,19
+RJ,Doutor,Matriz de formação 2,Outros,1,1,0,0
+RJ,Doutor,Matriz de formação 3,Sistema sinase,1,1,1,1
+RJ,Doutorando,Matriz de formação 1,Conselhos,2,1,0,0
+RJ,Doutorando,Matriz de formação 2,Sistema justiça,1,1,0,0
+RJ,Doutorando,Matriz de formação 3,Outros,1,1,1,0
+RJ,Doutorando,Matriz de formação 3,Sistema sinase,1,1,1,1
+RJ,Estudante Superior,Matriz de formação 1,Conselhos,5,2,0,0
+RJ,Estudante Superior,Matriz de formação 1,Outros,19,0,0,0
+RJ,Estudante Superior,Matriz de formação 1,Sistema sinase,6,5,1,1
+RJ,Estudante Superior,Matriz de formação 2,Conselhos,6,6,2,1
+RJ,Estudante Superior,Matriz de formação 2,Outros,14,14,4,2
+RJ,Estudante Superior,Matriz de formação 2,Sistema sinase,9,9,4,3
+RJ,Estudante Superior,Matriz de formação 3,Conselhos,5,5,2,2
+RJ,Estudante Superior,Matriz de formação 3,Outros,19,18,8,3
+RJ,Estudante Superior,Matriz de formação 3,Sistema justiça,1,1,1,0
+RJ,Estudante Superior,Matriz de formação 3,Sistema sinase,26,24,14,6
+RJ,Mestrando,Matriz de formação 1,Outros,3,0,0,0
+RJ,Mestrando,Matriz de formação 2,Conselhos,1,1,0,0
+RJ,Mestrando,Matriz de formação 2,Outros,2,2,2,2
+RJ,Mestrando,Matriz de formação 2,Sistema justiça,1,1,0,0
+RJ,Mestrando,Matriz de formação 2,Sistema sinase,1,1,1,0
+RJ,Mestrando,Matriz de formação 3,Sistema sinase,3,2,2,1
+RJ,Mestre,Matriz de formação 1,Conselhos,1,1,1,0
+RJ,Mestre,Matriz de formação 1,Outros,2,0,0,0
+RJ,Mestre,Matriz de formação 1,Sistema justiça,1,0,0,0
+RJ,Mestre,Matriz de formação 1,Sistema sinase,5,3,1,1
+RJ,Mestre,Matriz de formação 2,Outros,6,6,2,1
+RJ,Mestre,Matriz de formação 2,Sistema sinase,1,1,0,0
+RJ,Mestre,Matriz de formação 3,Sistema sinase,6,6,4,2
+RJ,Nível Médio,Matriz de formação 1,Conselhos,3,3,0,0
+RJ,Nível Médio,Matriz de formação 1,Outros,9,0,0,0
+RJ,Nível Médio,Matriz de formação 1,Sistema justiça,1,1,1,0
+RJ,Nível Médio,Matriz de formação 2,Conselhos,12,12,1,0
+RJ,Nível Médio,Matriz de formação 2,Outros,7,7,2,0
+RJ,Nível Médio,Matriz de formação 2,Sistema sinase,3,3,0,0
+RJ,Nível Médio,Matriz de formação 3,Conselhos,2,2,0,0
+RJ,Nível Médio,Matriz de formação 3,Outros,5,5,1,0
+RJ,Nível Médio,Matriz de formação 3,Sistema sinase,11,11,2,1
+RJ,Superior,Matriz de formação 1,Conselhos,33,25,8,6
+RJ,Superior,Matriz de formação 1,Outros,139,0,0,0
+RJ,Superior,Matriz de formação 1,Sistema justiça,21,14,4,3
+RJ,Superior,Matriz de formação 1,Sistema sinase,72,60,22,15
+RJ,Superior,Matriz de formação 2,Conselhos,23,23,9,3
+RJ,Superior,Matriz de formação 2,Outros,68,68,36,14
+RJ,Superior,Matriz de formação 2,Sistema justiça,3,3,0,0
+RJ,Superior,Matriz de formação 2,Sistema sinase,28,28,14,10
+RJ,Superior,Matriz de formação 3,Conselhos,8,8,6,4
+RJ,Superior,Matriz de formação 3,Outros,74,71,48,26
+RJ,Superior,Matriz de formação 3,Sistema justiça,3,2,1,1
+RJ,Superior,Matriz de formação 3,Sistema sinase,73,67,49,28
+RN,Estudante Superior,Matriz de formação 1,Conselhos,5,5,1,0
+RN,Estudante Superior,Matriz de formação 1,Outros,15,0,0,0
+RN,Estudante Superior,Matriz de formação 1,Sistema justiça,4,0,0,0
+RN,Estudante Superior,Matriz de formação 2,Conselhos,1,1,0,0
+RN,Estudante Superior,Matriz de formação 2,Outros,6,6,4,2
+RN,Estudante Superior,Matriz de formação 3,Conselhos,7,7,0,0
+RN,Estudante Superior,Matriz de formação 3,Outros,9,9,5,0
+RN,Estudante Superior,Matriz de formação 3,Sistema justiça,2,2,1,1
+RN,Estudante Superior,Matriz de formação 3,Sistema sinase,5,4,2,0
+RN,Mestrando,Matriz de formação 1,Conselhos,1,1,0,0
+RN,Mestrando,Matriz de formação 1,Outros,1,0,0,0
+RN,Mestrando,Matriz de formação 3,Outros,1,1,0,0
+RN,Mestrando,Matriz de formação 3,Sistema sinase,1,1,0,0
+RN,Mestre,Matriz de formação 1,Outros,2,0,0,0
+RN,Mestre,Matriz de formação 1,Sistema sinase,1,1,0,0
+RN,Mestre,Matriz de formação 2,Conselhos,1,1,0,0
+RN,Mestre,Matriz de formação 2,Outros,1,1,0,0
+RN,Mestre,Matriz de formação 2,Sistema justiça,1,1,1,1
+RN,Mestre,Matriz de formação 3,Outros,1,1,0,0
+RN,Nível Médio,Matriz de formação 1,Outros,1,0,0,0
+RN,Nível Médio,Matriz de formação 2,Outros,2,2,0,0
+RN,Nível Médio,Matriz de formação 2,Sistema sinase,1,1,0,0
+RN,Nível Médio,Matriz de formação 3,Conselhos,4,4,1,0
+RN,Nível Médio,Matriz de formação 3,Outros,1,1,1,0
+RN,Superior,Matriz de formação 1,Conselhos,13,10,5,3
+RN,Superior,Matriz de formação 1,Outros,51,1,0,0
+RN,Superior,Matriz de formação 1,Sistema justiça,4,2,0,0
+RN,Superior,Matriz de formação 1,Sistema sinase,10,10,6,4
+RN,Superior,Matriz de formação 2,Conselhos,12,12,4,1
+RN,Superior,Matriz de formação 2,Outros,23,23,11,8
+RN,Superior,Matriz de formação 2,Sistema justiça,4,4,3,1
+RN,Superior,Matriz de formação 2,Sistema sinase,10,10,5,4
+RN,Superior,Matriz de formação 3,Conselhos,11,11,6,3
+RN,Superior,Matriz de formação 3,Outros,23,22,16,10
+RN,Superior,Matriz de formação 3,Sistema sinase,6,5,2,2
+RO,Estudante Superior,Matriz de formação 1,Conselhos,1,1,0,0
+RO,Estudante Superior,Matriz de formação 1,Outros,4,0,0,0
+RO,Estudante Superior,Matriz de formação 1,Sistema sinase,4,4,1,0
+RO,Estudante Superior,Matriz de formação 2,Conselhos,5,5,2,2
+RO,Estudante Superior,Matriz de formação 2,Outros,6,6,3,1
+RO,Estudante Superior,Matriz de formação 2,Sistema justiça,2,2,1,0
+RO,Estudante Superior,Matriz de formação 2,Sistema sinase,2,2,1,1
+RO,Estudante Superior,Matriz de formação 3,Conselhos,1,1,0,0
+RO,Estudante Superior,Matriz de formação 3,Outros,3,3,1,1
+RO,Estudante Superior,Matriz de formação 3,Sistema justiça,1,1,1,0
+RO,Mestrando,Matriz de formação 2,Outros,2,2,1,0
+RO,Mestre,Matriz de formação 1,Conselhos,1,1,0,0
+RO,Mestre,Matriz de formação 1,Sistema justiça,2,2,2,0
+RO,Mestre,Matriz de formação 2,Outros,2,2,2,1
+RO,Mestre,Matriz de formação 2,Sistema justiça,1,1,1,1
+RO,Mestre,Matriz de formação 3,Conselhos,1,1,0,0
+RO,Mestre,Matriz de formação 3,Sistema sinase,1,1,1,0
+RO,Nível Médio,Matriz de formação 1,Conselhos,2,2,0,0
+RO,Nível Médio,Matriz de formação 1,Sistema justiça,1,0,0,0
+RO,Nível Médio,Matriz de formação 1,Sistema sinase,6,6,2,2
+RO,Nível Médio,Matriz de formação 2,Conselhos,10,10,3,2
+RO,Nível Médio,Matriz de formação 2,Outros,4,4,1,1
+RO,Nível Médio,Matriz de formação 2,Sistema sinase,1,1,0,0
+RO,Nível Médio,Matriz de formação 3,Outros,2,2,0,0
+RO,Superior,Matriz de formação 1,Conselhos,7,7,0,0
+RO,Superior,Matriz de formação 1,Outros,21,1,1,0
+RO,Superior,Matriz de formação 1,Sistema justiça,14,9,7,5
+RO,Superior,Matriz de formação 1,Sistema sinase,12,10,5,5
+RO,Superior,Matriz de formação 2,Conselhos,8,8,2,0
+RO,Superior,Matriz de formação 2,Outros,13,13,8,4
+RO,Superior,Matriz de formação 2,Sistema justiça,4,4,0,0
+RO,Superior,Matriz de formação 2,Sistema sinase,6,6,6,4
+RO,Superior,Matriz de formação 3,Conselhos,2,2,2,1
+RO,Superior,Matriz de formação 3,Outros,7,7,4,0
+RO,Superior,Matriz de formação 3,Sistema sinase,4,4,4,2
+RR,Estudante Superior,Matriz de formação 1,Conselhos,1,1,0,0
+RR,Estudante Superior,Matriz de formação 1,Outros,9,0,0,0
+RR,Estudante Superior,Matriz de formação 1,Sistema justiça,2,0,0,0
+RR,Estudante Superior,Matriz de formação 1,Sistema sinase,4,4,3,3
+RR,Estudante Superior,Matriz de formação 2,Outros,17,17,11,9
+RR,Estudante Superior,Matriz de formação 2,Sistema sinase,3,3,0,0
+RR,Estudante Superior,Matriz de formação 3,Outros,5,5,3,0
+RR,Estudante Superior,Matriz de formação 3,Sistema sinase,4,4,0,0
+RR,Mestrando,Matriz de formação 3,Sistema sinase,1,1,1,1
+RR,Mestre,Matriz de formação 1,Sistema justiça,1,1,1,1
+RR,Nível Médio,Matriz de formação 1,Conselhos,8,6,0,0
+RR,Nível Médio,Matriz de formação 1,Outros,11,0,0,0
+RR,Nível Médio,Matriz de formação 1,Sistema sinase,3,3,0,0
+RR,Nível Médio,Matriz de formação 2,Conselhos,1,1,1,1
+RR,Nível Médio,Matriz de formação 2,Outros,5,5,1,1
+RR,Nível Médio,Matriz de formação 2,Sistema sinase,1,1,1,1
+RR,Nível Médio,Matriz de formação 3,Outros,1,1,1,1
+RR,Nível Médio,Matriz de formação 3,Sistema justiça,1,1,0,0
+RR,Superior,Matriz de formação 1,Conselhos,3,2,0,0
+RR,Superior,Matriz de formação 1,Outros,23,0,0,0
+RR,Superior,Matriz de formação 1,Sistema justiça,2,2,2,2
+RR,Superior,Matriz de formação 1,Sistema sinase,14,12,7,6
+RR,Superior,Matriz de formação 2,Outros,14,14,7,2
+RR,Superior,Matriz de formação 2,Sistema justiça,3,3,2,1
+RR,Superior,Matriz de formação 2,Sistema sinase,6,6,2,0
+RR,Superior,Matriz de formação 3,Outros,7,7,3,1
+RR,Superior,Matriz de formação 3,Sistema justiça,1,1,0,0
+RR,Superior,Matriz de formação 3,Sistema sinase,1,1,0,0
+RS,Doutor,Matriz de formação 1,Outros,1,0,0,0
+RS,Doutor,Matriz de formação 3,Outros,1,1,0,0
+RS,Doutorando,Matriz de formação 1,Outros,1,0,0,0
+RS,Doutorando,Matriz de formação 1,Sistema sinase,1,1,1,1
+RS,Doutorando,Matriz de formação 2,Outros,1,1,1,1
+RS,Estudante Superior,Matriz de formação 1,Conselhos,4,3,1,0
+RS,Estudante Superior,Matriz de formação 1,Outros,23,1,0,0
+RS,Estudante Superior,Matriz de formação 1,Sistema justiça,1,1,0,0
+RS,Estudante Superior,Matriz de formação 1,Sistema sinase,13,12,7,3
+RS,Estudante Superior,Matriz de formação 2,Conselhos,6,6,0,0
+RS,Estudante Superior,Matriz de formação 2,Outros,21,21,9,5
+RS,Estudante Superior,Matriz de formação 2,Sistema sinase,3,3,0,0
+RS,Estudante Superior,Matriz de formação 3,Conselhos,1,1,0,0
+RS,Estudante Superior,Matriz de formação 3,Outros,25,25,10,4
+RS,Estudante Superior,Matriz de formação 3,Sistema sinase,6,6,3,2
+RS,Mestrando,Matriz de formação 1,Conselhos,2,2,2,1
+RS,Mestrando,Matriz de formação 1,Outros,2,0,0,0
+RS,Mestrando,Matriz de formação 1,Sistema justiça,1,1,0,0
+RS,Mestrando,Matriz de formação 1,Sistema sinase,2,2,2,2
+RS,Mestrando,Matriz de formação 3,Outros,1,1,0,0
+RS,Mestrando,Matriz de formação 3,Sistema sinase,1,1,1,0
+RS,Mestre,Matriz de formação 1,Outros,3,0,0,0
+RS,Mestre,Matriz de formação 1,Sistema justiça,1,1,1,1
+RS,Mestre,Matriz de formação 1,Sistema sinase,5,4,3,3
+RS,Mestre,Matriz de formação 2,Outros,2,2,1,0
+RS,Mestre,Matriz de formação 2,Sistema sinase,2,2,2,2
+RS,Mestre,Matriz de formação 3,Outros,2,2,2,1
+RS,Mestre,Matriz de formação 3,Sistema sinase,4,4,2,2
+RS,Nível Médio,Matriz de formação 1,Conselhos,1,1,1,1
+RS,Nível Médio,Matriz de formação 1,Outros,8,0,0,0
+RS,Nível Médio,Matriz de formação 1,Sistema sinase,4,3,3,3
+RS,Nível Médio,Matriz de formação 2,Conselhos,3,3,1,0
+RS,Nível Médio,Matriz de formação 2,Outros,8,8,3,2
+RS,Nível Médio,Matriz de formação 2,Sistema justiça,1,1,0,0
+RS,Nível Médio,Matriz de formação 2,Sistema sinase,4,4,1,0
+RS,Nível Médio,Matriz de formação 3,Outros,14,14,4,1
+RS,Nível Médio,Matriz de formação 3,Sistema justiça,1,1,0,0
+RS,Nível Médio,Matriz de formação 3,Sistema sinase,8,8,2,2
+RS,Superior,Matriz de formação 1,Conselhos,24,20,15,8
+RS,Superior,Matriz de formação 1,Outros,89,17,11,9
+RS,Superior,Matriz de formação 1,Sistema justiça,1,1,1,1
+RS,Superior,Matriz de formação 1,Sistema sinase,61,57,36,28
+RS,Superior,Matriz de formação 2,Conselhos,10,10,4,2
+RS,Superior,Matriz de formação 2,Outros,45,45,21,16
+RS,Superior,Matriz de formação 2,Sistema justiça,5,5,2,0
+RS,Superior,Matriz de formação 2,Sistema sinase,24,24,12,6
+RS,Superior,Matriz de formação 3,Conselhos,12,11,8,5
+RS,Superior,Matriz de formação 3,Outros,65,65,43,30
+RS,Superior,Matriz de formação 3,Sistema justiça,2,2,1,0
+RS,Superior,Matriz de formação 3,Sistema sinase,38,38,24,16
+SC,Doutorando,Matriz de formação 1,Outros,2,0,0,0
+SC,Doutorando,Matriz de formação 1,Sistema justiça,1,1,1,0
+SC,Doutorando,Matriz de formação 1,Sistema sinase,1,0,0,0
+SC,Doutorando,Matriz de formação 3,Outros,1,1,1,1
+SC,Estudante Superior,Matriz de formação 1,Conselhos,4,2,2,2
+SC,Estudante Superior,Matriz de formação 1,Outros,8,0,0,0
+SC,Estudante Superior,Matriz de formação 1,Sistema justiça,15,8,6,5
+SC,Estudante Superior,Matriz de formação 1,Sistema sinase,2,2,0,0
+SC,Estudante Superior,Matriz de formação 2,Conselhos,11,11,4,0
+SC,Estudante Superior,Matriz de formação 2,Outros,1,1,0,0
+SC,Estudante Superior,Matriz de formação 2,Sistema justiça,3,3,3,1
+SC,Estudante Superior,Matriz de formação 2,Sistema sinase,1,1,0,0
+SC,Estudante Superior,Matriz de formação 3,Conselhos,4,4,0,0
+SC,Estudante Superior,Matriz de formação 3,Outros,18,18,8,6
+SC,Estudante Superior,Matriz de formação 3,Sistema justiça,2,2,0,0
+SC,Estudante Superior,Matriz de formação 3,Sistema sinase,4,4,3,2
+SC,Mestrando,Matriz de formação 1,Conselhos,1,1,1,1
+SC,Mestrando,Matriz de formação 1,Outros,2,0,0,0
+SC,Mestrando,Matriz de formação 1,Sistema sinase,2,2,1,0
+SC,Mestrando,Matriz de formação 2,Outros,1,1,1,0
+SC,Mestrando,Matriz de formação 2,Sistema sinase,1,1,1,0
+SC,Mestrando,Matriz de formação 3,Outros,3,3,2,1
+SC,Mestrando,Matriz de formação 3,Sistema sinase,1,0,0,0
+SC,Mestre,Matriz de formação 1,Conselhos,2,2,1,1
+SC,Mestre,Matriz de formação 1,Sistema justiça,6,4,4,4
+SC,Mestre,Matriz de formação 1,Sistema sinase,2,2,2,2
+SC,Mestre,Matriz de formação 2,Conselhos,1,1,1,1
+SC,Mestre,Matriz de formação 2,Outros,1,1,1,0
+SC,Mestre,Matriz de formação 2,Sistema justiça,1,1,1,1
+SC,Mestre,Matriz de formação 3,Conselhos,1,1,0,0
+SC,Mestre,Matriz de formação 3,Outros,4,4,3,3
+SC,Mestre,Matriz de formação 3,Sistema justiça,3,3,3,3
+SC,Mestre,Matriz de formação 3,Sistema sinase,5,5,4,4
+SC,Nível Médio,Matriz de formação 1,Outros,4,0,0,0
+SC,Nível Médio,Matriz de formação 1,Sistema justiça,6,0,0,0
+SC,Nível Médio,Matriz de formação 1,Sistema sinase,1,1,0,0
+SC,Nível Médio,Matriz de formação 2,Conselhos,8,8,2,1
+SC,Nível Médio,Matriz de formação 2,Outros,2,2,0,0
+SC,Nível Médio,Matriz de formação 3,Conselhos,4,4,0,0
+SC,Nível Médio,Matriz de formação 3,Outros,17,16,2,0
+SC,Nível Médio,Matriz de formação 3,Sistema justiça,1,1,0,0
+SC,Nível Médio,Matriz de formação 3,Sistema sinase,1,1,1,1
+SC,Superior,Matriz de formação 1,Conselhos,41,36,19,13
+SC,Superior,Matriz de formação 1,Outros,85,1,1,1
+SC,Superior,Matriz de formação 1,Sistema justiça,90,39,32,32
+SC,Superior,Matriz de formação 1,Sistema sinase,69,62,30,19
+SC,Superior,Matriz de formação 2,Conselhos,16,16,10,6
+SC,Superior,Matriz de formação 2,Outros,46,46,24,15
+SC,Superior,Matriz de formação 2,Sistema justiça,18,18,13,10
+SC,Superior,Matriz de formação 2,Sistema sinase,20,20,10,7
+SC,Superior,Matriz de formação 3,Conselhos,34,33,25,15
+SC,Superior,Matriz de formação 3,Outros,155,149,82,46
+SC,Superior,Matriz de formação 3,Sistema justiça,19,19,17,12
+SC,Superior,Matriz de formação 3,Sistema sinase,72,72,48,30
+SE,Estudante Superior,Matriz de formação 1,Conselhos,3,2,0,0
+SE,Estudante Superior,Matriz de formação 1,Outros,8,0,0,0
+SE,Estudante Superior,Matriz de formação 1,Sistema justiça,1,1,0,0
+SE,Estudante Superior,Matriz de formação 1,Sistema sinase,8,8,2,2
+SE,Estudante Superior,Matriz de formação 2,Conselhos,5,5,3,1
+SE,Estudante Superior,Matriz de formação 2,Outros,13,13,4,4
+SE,Estudante Superior,Matriz de formação 3,Conselhos,1,1,0,0
+SE,Estudante Superior,Matriz de formação 3,Outros,3,3,2,0
+SE,Estudante Superior,Matriz de formação 3,Sistema sinase,2,2,1,0
+SE,Mestrando,Matriz de formação 1,Outros,1,0,0,0
+SE,Mestrando,Matriz de formação 1,Sistema sinase,3,3,2,2
+SE,Mestrando,Matriz de formação 2,Outros,2,2,2,1
+SE,Mestrando,Matriz de formação 2,Sistema justiça,1,1,1,0
+SE,Mestrando,Matriz de formação 2,Sistema sinase,1,1,1,0
+SE,Mestre,Matriz de formação 1,Conselhos,2,2,1,1
+SE,Mestre,Matriz de formação 1,Sistema justiça,1,1,1,1
+SE,Mestre,Matriz de formação 1,Sistema sinase,1,0,0,0
+SE,Nível Médio,Matriz de formação 1,Outros,1,0,0,0
+SE,Nível Médio,Matriz de formação 1,Sistema sinase,1,1,1,0
+SE,Nível Médio,Matriz de formação 2,Conselhos,8,8,0,0
+SE,Nível Médio,Matriz de formação 2,Outros,1,1,0,0
+SE,Nível Médio,Matriz de formação 2,Sistema sinase,2,2,0,0
+SE,Superior,Matriz de formação 1,Conselhos,13,8,3,1
+SE,Superior,Matriz de formação 1,Outros,64,0,0,0
+SE,Superior,Matriz de formação 1,Sistema justiça,12,10,5,4
+SE,Superior,Matriz de formação 1,Sistema sinase,28,24,19,9
+SE,Superior,Matriz de formação 2,Conselhos,11,11,7,2
+SE,Superior,Matriz de formação 2,Outros,28,28,11,9
+SE,Superior,Matriz de formação 2,Sistema justiça,2,2,2,1
+SE,Superior,Matriz de formação 2,Sistema sinase,18,18,9,6
+SE,Superior,Matriz de formação 3,Conselhos,2,1,1,0
+SE,Superior,Matriz de formação 3,Outros,8,8,6,2
+SE,Superior,Matriz de formação 3,Sistema sinase,6,5,3,2
+SP,Doutor,Matriz de formação 1,Conselhos,1,1,0,0
+SP,Doutor,Matriz de formação 1,Outros,3,0,0,0
+SP,Doutor,Matriz de formação 1,Sistema justiça,1,0,0,0
+SP,Doutor,Matriz de formação 2,Sistema justiça,1,1,0,0
+SP,Doutor,Matriz de formação 3,Outros,1,1,1,1
+SP,Doutor,Matriz de formação 3,Sistema justiça,1,1,0,0
+SP,Doutorando,Matriz de formação 1,Conselhos,1,1,0,0
+SP,Doutorando,Matriz de formação 1,Outros,1,0,0,0
+SP,Doutorando,Matriz de formação 1,Sistema justiça,3,2,2,1
+SP,Doutorando,Matriz de formação 2,Conselhos,1,1,1,1
+SP,Doutorando,Matriz de formação 2,Outros,1,1,1,1
+SP,Doutorando,Matriz de formação 3,Conselhos,1,1,0,0
+SP,Doutorando,Matriz de formação 3,Outros,1,1,1,1
+SP,Estudante Superior,Matriz de formação 1,Conselhos,17,15,8,3
+SP,Estudante Superior,Matriz de formação 1,Outros,107,17,6,4
+SP,Estudante Superior,Matriz de formação 1,Sistema justiça,4,4,2,1
+SP,Estudante Superior,Matriz de formação 1,Sistema sinase,19,19,11,6
+SP,Estudante Superior,Matriz de formação 2,Conselhos,29,29,7,3
+SP,Estudante Superior,Matriz de formação 2,Outros,62,62,26,16
+SP,Estudante Superior,Matriz de formação 2,Sistema justiça,3,3,2,0
+SP,Estudante Superior,Matriz de formação 2,Sistema sinase,8,8,5,2
+SP,Estudante Superior,Matriz de formação 3,Conselhos,8,7,5,2
+SP,Estudante Superior,Matriz de formação 3,Outros,53,53,25,13
+SP,Estudante Superior,Matriz de formação 3,Sistema justiça,9,9,4,2
+SP,Estudante Superior,Matriz de formação 3,Sistema sinase,4,4,2,1
+SP,Mestrando,Matriz de formação 1,Outros,9,2,1,0
+SP,Mestrando,Matriz de formação 1,Sistema justiça,4,4,4,4
+SP,Mestrando,Matriz de formação 1,Sistema sinase,7,7,3,3
+SP,Mestrando,Matriz de formação 2,Conselhos,2,2,1,0
+SP,Mestrando,Matriz de formação 2,Outros,7,7,4,3
+SP,Mestrando,Matriz de formação 2,Sistema justiça,2,2,2,2
+SP,Mestrando,Matriz de formação 2,Sistema sinase,3,3,2,2
+SP,Mestrando,Matriz de formação 3,Outros,5,5,1,1
+SP,Mestrando,Matriz de formação 3,Sistema sinase,1,1,1,0
+SP,Mestre,Matriz de formação 1,Conselhos,2,2,1,0
+SP,Mestre,Matriz de formação 1,Outros,27,4,2,1
+SP,Mestre,Matriz de formação 1,Sistema justiça,14,13,10,10
+SP,Mestre,Matriz de formação 1,Sistema sinase,5,5,4,3
+SP,Mestre,Matriz de formação 2,Conselhos,3,3,2,1
+SP,Mestre,Matriz de formação 2,Outros,10,10,5,3
+SP,Mestre,Matriz de formação 2,Sistema justiça,3,3,1,1
+SP,Mestre,Matriz de formação 2,Sistema sinase,6,6,1,1
+SP,Mestre,Matriz de formação 3,Conselhos,2,2,1,0
+SP,Mestre,Matriz de formação 3,Outros,4,4,2,0
+SP,Nível Médio,Matriz de formação 1,Conselhos,6,4,1,0
+SP,Nível Médio,Matriz de formação 1,Outros,29,8,5,2
+SP,Nível Médio,Matriz de formação 1,Sistema sinase,5,4,0,0
+SP,Nível Médio,Matriz de formação 2,Conselhos,17,17,1,1
+SP,Nível Médio,Matriz de formação 2,Outros,21,21,7,3
+SP,Nível Médio,Matriz de formação 2,Sistema justiça,2,2,0,0
+SP,Nível Médio,Matriz de formação 2,Sistema sinase,4,4,2,0
+SP,Nível Médio,Matriz de formação 3,Conselhos,6,6,3,1
+SP,Nível Médio,Matriz de formação 3,Outros,9,8,1,1
+SP,Nível Médio,Matriz de formação 3,Sistema sinase,2,2,1,1
+SP,Superior,Matriz de formação 1,Conselhos,115,89,49,29
+SP,Superior,Matriz de formação 1,Outros,752,128,70,42
+SP,Superior,Matriz de formação 1,Sistema justiça,94,70,51,36
+SP,Superior,Matriz de formação 1,Sistema sinase,246,217,127,84
+SP,Superior,Matriz de formação 2,Conselhos,78,78,35,16
+SP,Superior,Matriz de formação 2,Outros,335,335,163,90
+SP,Superior,Matriz de formação 2,Sistema justiça,48,48,30,23
+SP,Superior,Matriz de formação 2,Sistema sinase,55,55,32,22
+SP,Superior,Matriz de formação 3,Conselhos,31,30,11,6
+SP,Superior,Matriz de formação 3,Outros,189,183,108,65
+SP,Superior,Matriz de formação 3,Sistema justiça,7,7,4,3
+SP,Superior,Matriz de formação 3,Sistema sinase,38,38,19,10
+TO,Estudante Superior,Matriz de formação 1,Conselhos,1,1,0,0
+TO,Estudante Superior,Matriz de formação 1,Outros,4,0,0,0
+TO,Estudante Superior,Matriz de formação 1,Sistema sinase,21,21,9,7
+TO,Estudante Superior,Matriz de formação 2,Conselhos,1,1,0,0
+TO,Estudante Superior,Matriz de formação 2,Outros,5,5,1,0
+TO,Estudante Superior,Matriz de formação 2,Sistema sinase,1,1,1,1
+TO,Estudante Superior,Matriz de formação 3,Outros,3,3,1,1
+TO,Estudante Superior,Matriz de formação 3,Sistema justiça,2,2,0,0
+TO,Estudante Superior,Matriz de formação 3,Sistema sinase,1,1,0,0
+TO,Mestrando,Matriz de formação 1,Outros,1,0,0,0
+TO,Mestrando,Matriz de formação 1,Sistema sinase,1,1,0,0
+TO,Mestre,Matriz de formação 1,Sistema justiça,1,1,1,0
+TO,Mestre,Matriz de formação 3,Sistema sinase,1,1,1,1
+TO,Nível Médio,Matriz de formação 1,Outros,11,1,1,1
+TO,Nível Médio,Matriz de formação 1,Sistema justiça,5,0,0,0
+TO,Nível Médio,Matriz de formação 1,Sistema sinase,31,29,6,3
+TO,Nível Médio,Matriz de formação 2,Conselhos,3,3,1,0
+TO,Nível Médio,Matriz de formação 2,Outros,15,15,6,2
+TO,Nível Médio,Matriz de formação 2,Sistema justiça,1,1,0,0
+TO,Nível Médio,Matriz de formação 2,Sistema sinase,3,3,1,0
+TO,Nível Médio,Matriz de formação 3,Outros,3,2,1,0
+TO,Nível Médio,Matriz de formação 3,Sistema sinase,2,2,0,0
+TO,Superior,Matriz de formação 1,Conselhos,8,8,5,5
+TO,Superior,Matriz de formação 1,Outros,18,2,0,0
+TO,Superior,Matriz de formação 1,Sistema justiça,13,7,4,4
+TO,Superior,Matriz de formação 1,Sistema sinase,24,23,13,10
+TO,Superior,Matriz de formação 2,Conselhos,1,1,1,1
+TO,Superior,Matriz de formação 2,Outros,11,11,7,4
+TO,Superior,Matriz de formação 2,Sistema justiça,5,5,0,0
+TO,Superior,Matriz de formação 2,Sistema sinase,8,8,4,2
+TO,Superior,Matriz de formação 3,Conselhos,1,0,0,0
+TO,Superior,Matriz de formação 3,Outros,8,8,4,2
+TO,Superior,Matriz de formação 3,Sistema justiça,4,4,2,1
+TO,Superior,Matriz de formação 3,Sistema sinase,4,4,3,3
+AC,Mestre,Fortalecimento da Gestão,Sistema justiça,1,1,1,1
+AC,Superior,Fortalecimento da Gestão,Sistema justiça,2,2,0,0
+AC,Superior,Fortalecimento da Gestão,Sistema sinase,6,6,4,2
+AL,Estudante Superior,Fortalecimento da Gestão,Sistema sinase,1,1,1,1
+AL,Superior,Fortalecimento da Gestão,Sistema justiça,1,1,1,1
+AL,Superior,Fortalecimento da Gestão,Sistema sinase,3,3,1,1
+AM,Superior,Fortalecimento da Gestão,Sistema sinase,1,1,1,0
+AP,Superior,Fortalecimento da Gestão,Sistema justiça,2,2,2,2
+AP,Superior,Fortalecimento da Gestão,Sistema sinase,2,2,1,1
+BA,Estudante Superior,Fortalecimento da Gestão,Sistema justiça,2,2,1,1
+BA,Superior,Fortalecimento da Gestão,Conselhos,5,5,1,1
+BA,Superior,Fortalecimento da Gestão,Sistema justiça,10,10,7,4
+BA,Superior,Fortalecimento da Gestão,Sistema sinase,13,13,9,6
+CE,Estudante Superior,Fortalecimento da Gestão,Sistema justiça,1,1,1,1
+CE,Mestrando,Fortalecimento da Gestão,Sistema justiça,1,1,1,1
+CE,Superior,Fortalecimento da Gestão,Conselhos,3,3,2,2
+CE,Superior,Fortalecimento da Gestão,Sistema justiça,2,2,0,0
+CE,Superior,Fortalecimento da Gestão,Sistema sinase,10,10,8,6
+DF,Doutorando,Fortalecimento da Gestão,Sistema sinase,1,1,0,0
+DF,Estudante Superior,Fortalecimento da Gestão,Sistema justiça,3,3,2,2
+DF,Estudante Superior,Fortalecimento da Gestão,Sistema sinase,6,6,4,1
+DF,Mestrando,Fortalecimento da Gestão,Sistema sinase,1,1,0,0
+DF,Mestre,Fortalecimento da Gestão,Sistema sinase,4,4,4,3
+DF,Nível Médio,Fortalecimento da Gestão,Sistema sinase,2,2,2,2
+DF,Superior,Fortalecimento da Gestão,Sistema justiça,5,5,1,1
+DF,Superior,Fortalecimento da Gestão,Sistema sinase,47,47,30,18
+ES,Doutorando,Fortalecimento da Gestão,Sistema sinase,1,1,1,1
+ES,Estudante Superior,Fortalecimento da Gestão,Sistema sinase,2,2,1,1
+ES,Mestrando,Fortalecimento da Gestão,Sistema sinase,1,1,1,1
+ES,Nível Médio,Fortalecimento da Gestão,Sistema sinase,1,1,1,0
+ES,Superior,Fortalecimento da Gestão,Conselhos,2,2,1,1
+ES,Superior,Fortalecimento da Gestão,Sistema justiça,10,10,4,3
+ES,Superior,Fortalecimento da Gestão,Sistema sinase,50,50,34,28
+GO,Mestrando,Fortalecimento da Gestão,Sistema sinase,1,1,1,1
+GO,Mestre,Fortalecimento da Gestão,Sistema sinase,1,1,1,1
+GO,Superior,Fortalecimento da Gestão,Sistema sinase,6,6,4,2
+MA,Estudante Superior,Fortalecimento da Gestão,Sistema justiça,1,1,0,0
+MA,Mestrando,Fortalecimento da Gestão,Sistema justiça,1,1,1,0
+MA,Mestre,Fortalecimento da Gestão,Sistema justiça,1,1,0,0
+MA,Superior,Fortalecimento da Gestão,Sistema justiça,8,8,5,1
+MA,Superior,Fortalecimento da Gestão,Sistema sinase,4,4,3,3
+MG,Estudante Superior,Fortalecimento da Gestão,Sistema justiça,1,1,1,1
+MG,Estudante Superior,Fortalecimento da Gestão,Sistema sinase,4,4,3,2
+MG,Mestrando,Fortalecimento da Gestão,Conselhos,2,2,2,2
+MG,Mestrando,Fortalecimento da Gestão,Sistema sinase,1,1,0,0
+MG,Mestre,Fortalecimento da Gestão,Sistema justiça,1,1,1,1
+MG,Nível Médio,Fortalecimento da Gestão,Sistema sinase,2,2,2,2
+MG,Superior,Fortalecimento da Gestão,Conselhos,2,2,2,1
+MG,Superior,Fortalecimento da Gestão,Sistema justiça,16,16,10,9
+MG,Superior,Fortalecimento da Gestão,Sistema sinase,36,36,26,21
+MS,Mestrando,Fortalecimento da Gestão,Sistema sinase,1,1,0,0
+MS,Superior,Fortalecimento da Gestão,Conselhos,3,3,1,1
+MS,Superior,Fortalecimento da Gestão,Sistema justiça,5,5,4,4
+MS,Superior,Fortalecimento da Gestão,Sistema sinase,16,16,10,10
+MT,Estudante Superior,Fortalecimento da Gestão,Sistema sinase,1,1,1,1
+MT,Superior,Fortalecimento da Gestão,Sistema sinase,11,11,8,6
+PA,Mestrando,Fortalecimento da Gestão,Sistema justiça,2,2,0,0
+PA,Mestre,Fortalecimento da Gestão,Sistema justiça,4,4,3,3
+PA,Superior,Fortalecimento da Gestão,Sistema justiça,18,18,12,11
+PA,Superior,Fortalecimento da Gestão,Sistema sinase,6,6,5,4
+PB,Estudante Superior,Fortalecimento da Gestão,Sistema justiça,4,4,3,2
+PB,Mestrando,Fortalecimento da Gestão,Sistema sinase,1,1,1,0
+PB,Mestre,Fortalecimento da Gestão,Sistema sinase,1,1,0,0
+PB,Superior,Fortalecimento da Gestão,Conselhos,1,1,1,1
+PB,Superior,Fortalecimento da Gestão,Sistema justiça,4,4,3,3
+PB,Superior,Fortalecimento da Gestão,Sistema sinase,12,12,7,6
+PE,Doutorando,Fortalecimento da Gestão,Sistema justiça,1,1,1,1
+PE,Estudante Superior,Fortalecimento da Gestão,Sistema justiça,1,1,0,0
+PE,Estudante Superior,Fortalecimento da Gestão,Sistema sinase,1,1,1,0
+PE,Mestrando,Fortalecimento da Gestão,Sistema justiça,2,2,1,1
+PE,Mestre,Fortalecimento da Gestão,Sistema justiça,3,3,2,1
+PE,Superior,Fortalecimento da Gestão,Conselhos,3,3,3,3
+PE,Superior,Fortalecimento da Gestão,Sistema justiça,7,7,3,3
+PE,Superior,Fortalecimento da Gestão,Sistema sinase,16,16,10,9
+PI,Mestre,Fortalecimento da Gestão,Sistema sinase,1,1,1,0
+PI,Superior,Fortalecimento da Gestão,Sistema justiça,2,2,1,1
+PI,Superior,Fortalecimento da Gestão,Sistema sinase,2,2,1,1
+PR,Estudante Superior,Fortalecimento da Gestão,Sistema sinase,12,12,7,7
+PR,Mestrando,Fortalecimento da Gestão,Sistema sinase,3,3,3,2
+PR,Mestre,Fortalecimento da Gestão,Sistema justiça,1,1,0,0
+PR,Mestre,Fortalecimento da Gestão,Sistema sinase,4,4,3,2
+PR,Nível Médio,Fortalecimento da Gestão,Sistema sinase,7,7,5,1
+PR,Superior,Fortalecimento da Gestão,Conselhos,4,4,3,2
+PR,Superior,Fortalecimento da Gestão,Outros,1,1,1,1
+PR,Superior,Fortalecimento da Gestão,Sistema justiça,4,4,2,2
+PR,Superior,Fortalecimento da Gestão,Sistema sinase,52,52,41,31
+RJ,Estudante Superior,Fortalecimento da Gestão,Sistema sinase,2,2,2,0
+RJ,Mestre,Fortalecimento da Gestão,Sistema sinase,1,1,1,1
+RJ,Superior,Fortalecimento da Gestão,Sistema justiça,4,4,2,1
+RJ,Superior,Fortalecimento da Gestão,Sistema sinase,16,16,14,12
+RN,Mestre,Fortalecimento da Gestão,Sistema justiça,1,1,1,1
+RN,Superior,Fortalecimento da Gestão,Sistema justiça,1,1,1,1
+RN,Superior,Fortalecimento da Gestão,Sistema sinase,7,7,4,3
+RO,Estudante Superior,Fortalecimento da Gestão,Sistema sinase,1,1,1,1
+RO,Mestre,Fortalecimento da Gestão,Sistema justiça,1,1,1,0
+RO,Nível Médio,Fortalecimento da Gestão,Sistema sinase,1,1,1,1
+RO,Superior,Fortalecimento da Gestão,Sistema justiça,5,5,3,2
+RO,Superior,Fortalecimento da Gestão,Sistema sinase,9,9,8,6
+RR,Estudante Superior,Fortalecimento da Gestão,Sistema sinase,3,3,2,0
+RR,Mestre,Fortalecimento da Gestão,Sistema justiça,1,1,1,0
+RR,Nível Médio,Fortalecimento da Gestão,Sistema sinase,1,1,1,1
+RR,Superior,Fortalecimento da Gestão,Sistema justiça,3,3,3,2
+RR,Superior,Fortalecimento da Gestão,Sistema sinase,1,1,1,1
+RS,Doutorando,Fortalecimento da Gestão,Sistema sinase,1,1,1,1
+RS,Estudante Superior,Fortalecimento da Gestão,Sistema sinase,2,2,2,2
+RS,Mestrando,Fortalecimento da Gestão,Sistema sinase,2,2,2,1
+RS,Mestre,Fortalecimento da Gestão,Sistema justiça,1,1,1,0
+RS,Mestre,Fortalecimento da Gestão,Sistema sinase,5,5,4,3
+RS,Nível Médio,Fortalecimento da Gestão,Sistema sinase,2,2,1,1
+RS,Superior,Fortalecimento da Gestão,Conselhos,2,2,1,1
+RS,Superior,Fortalecimento da Gestão,Sistema justiça,1,1,0,0
+RS,Superior,Fortalecimento da Gestão,Sistema sinase,26,26,20,16
+SC,Estudante Superior,Fortalecimento da Gestão,Sistema justiça,4,4,4,4
+SC,Mestrando,Fortalecimento da Gestão,Conselhos,1,1,1,1
+SC,Mestre,Fortalecimento da Gestão,Sistema justiça,5,5,4,4
+SC,Mestre,Fortalecimento da Gestão,Sistema sinase,1,1,0,0
+SC,Superior,Fortalecimento da Gestão,Conselhos,7,7,4,4
+SC,Superior,Fortalecimento da Gestão,Outros,1,1,1,1
+SC,Superior,Fortalecimento da Gestão,Sistema justiça,34,34,22,18
+SC,Superior,Fortalecimento da Gestão,Sistema sinase,18,18,10,7
+SE,Estudante Superior,Fortalecimento da Gestão,Sistema sinase,1,1,0,0
+SE,Mestrando,Fortalecimento da Gestão,Sistema sinase,2,2,1,1
+SE,Mestre,Fortalecimento da Gestão,Sistema justiça,1,1,0,0
+SE,Superior,Fortalecimento da Gestão,Sistema justiça,5,5,4,3
+SE,Superior,Fortalecimento da Gestão,Sistema sinase,7,7,5,5
+SP,Doutorando,Fortalecimento da Gestão,Sistema justiça,1,1,1,1
+SP,Estudante Superior,Fortalecimento da Gestão,Conselhos,2,2,2,1
+SP,Estudante Superior,Fortalecimento da Gestão,Sistema justiça,1,1,0,0
+SP,Estudante Superior,Fortalecimento da Gestão,Sistema sinase,5,5,3,2
+SP,Mestrando,Fortalecimento da Gestão,Sistema justiça,3,3,3,1
+SP,Mestrando,Fortalecimento da Gestão,Sistema sinase,5,5,5,3
+SP,Mestre,Fortalecimento da Gestão,Sistema justiça,9,9,8,5
+SP,Superior,Fortalecimento da Gestão,Conselhos,11,11,9,4
+SP,Superior,Fortalecimento da Gestão,Sistema justiça,46,46,35,26
+SP,Superior,Fortalecimento da Gestão,Sistema sinase,81,81,49,38
+TO,Estudante Superior,Fortalecimento da Gestão,Sistema sinase,2,2,1,1
+TO,Nível Médio,Fortalecimento da Gestão,Sistema sinase,1,1,0,0
+TO,Superior,Fortalecimento da Gestão,Conselhos,1,1,0,0
+TO,Superior,Fortalecimento da Gestão,Sistema justiça,3,3,3,1
+TO,Superior,Fortalecimento da Gestão,Sistema sinase,8,8,4,3
+AC,Nível Médio,Formação de mediadores,Sistema sinase,1,1,1,0
+AC,Superior,Formação de mediadores,Sistema sinase,3,3,3,2
+AL,Superior,Formação de mediadores,Sistema sinase,1,1,0,0
+AM,Superior,Formação de mediadores,Sistema sinase,1,1,1,1
+AP,Mestrando,Formação de mediadores,Sistema sinase,2,2,2,2
+BA,Estudante Superior,Formação de mediadores,Sistema sinase,1,1,1,1
+BA,Superior,Formação de mediadores,Sistema sinase,12,12,11,8
+CE,Estudante Superior,Formação de mediadores,Sistema sinase,1,1,0,0
+CE,Mestrando,Formação de mediadores,Sistema sinase,1,1,1,1
+CE,Superior,Formação de mediadores,Sistema sinase,14,14,9,8
+DF,Estudante Superior,Formação de mediadores,Sistema sinase,3,3,2,1
+DF,Mestrando,Formação de mediadores,Sistema sinase,3,3,3,3
+DF,Mestre,Formação de mediadores,Sistema sinase,4,4,4,3
+DF,Nível Médio,Formação de mediadores,Sistema sinase,1,1,1,1
+DF,Superior,Formação de mediadores,Sistema sinase,32,32,23,18
+ES,Estudante Superior,Formação de mediadores,Sistema sinase,2,2,2,1
+ES,Nível Médio,Formação de mediadores,Sistema sinase,1,1,1,1
+ES,Superior,Formação de mediadores,Outros,1,1,1,1
+ES,Superior,Formação de mediadores,Sistema sinase,34,34,28,24
+GO,Mestrando,Formação de mediadores,Sistema sinase,1,1,1,1
+GO,Superior,Formação de mediadores,Sistema sinase,3,3,3,2
+MA,Superior,Formação de mediadores,Conselhos,1,1,1,1
+MA,Superior,Formação de mediadores,Sistema sinase,6,6,6,5
+MG,Mestrando,Formação de mediadores,Sistema sinase,1,1,1,0
+MG,Mestre,Formação de mediadores,Sistema sinase,1,1,1,0
+MG,Nível Médio,Formação de mediadores,Sistema sinase,1,1,1,1
+MG,Superior,Formação de mediadores,Sistema sinase,30,30,24,14
+MS,Mestrando,Formação de mediadores,Sistema sinase,1,1,1,1
+MS,Superior,Formação de mediadores,Sistema sinase,15,15,13,11
+MT,Estudante Superior,Formação de mediadores,Sistema sinase,1,1,1,1
+MT,Superior,Formação de mediadores,Sistema sinase,10,10,10,9
+PA,Superior,Formação de mediadores,Sistema sinase,6,6,6,6
+PB,Mestrando,Formação de mediadores,Sistema sinase,1,1,1,1
+PB,Mestre,Formação de mediadores,Sistema sinase,1,1,0,0
+PB,Superior,Formação de mediadores,Sistema sinase,8,8,6,4
+PE,Estudante Superior,Formação de mediadores,Sistema sinase,1,1,1,0
+PE,Superior,Formação de mediadores,Sistema sinase,10,10,10,7
+PI,Mestre,Formação de mediadores,Sistema sinase,1,1,0,0
+PI,Superior,Formação de mediadores,Sistema sinase,3,3,3,2
+PR,Doutorando,Formação de mediadores,Sistema sinase,1,1,1,1
+PR,Estudante Superior,Formação de mediadores,Sistema sinase,10,10,8,7
+PR,Mestrando,Formação de mediadores,Sistema sinase,2,2,2,1
+PR,Mestre,Formação de mediadores,Sistema sinase,4,4,3,3
+PR,Nível Médio,Formação de mediadores,Sistema sinase,3,3,3,2
+PR,Superior,Formação de mediadores,Sistema sinase,37,37,30,25
+RJ,Doutorando,Formação de mediadores,Sistema sinase,1,1,1,1
+RJ,Estudante Superior,Formação de mediadores,Sistema sinase,6,6,5,3
+RJ,Mestre,Formação de mediadores,Sistema sinase,2,2,2,2
+RJ,Superior,Formação de mediadores,Sistema sinase,22,22,18,13
+RN,Superior,Formação de mediadores,Sistema sinase,5,5,4,2
+RO,Estudante Superior,Formação de mediadores,Sistema sinase,1,1,0,0
+RO,Nível Médio,Formação de mediadores,Sistema sinase,1,1,1,1
+RO,Superior,Formação de mediadores,Sistema sinase,7,7,5,1
+RR,Estudante Superior,Formação de mediadores,Sistema sinase,1,1,1,1
+RR,Superior,Formação de mediadores,Sistema sinase,1,1,1,1
+RS,Estudante Superior,Formação de mediadores,Sistema sinase,3,3,2,1
+RS,Mestrando,Formação de mediadores,Sistema sinase,1,1,1,1
+RS,Mestre,Formação de mediadores,Sistema sinase,5,5,4,4
+RS,Nível Médio,Formação de mediadores,Sistema sinase,2,2,2,1
+RS,Superior,Formação de mediadores,Sistema sinase,25,25,22,15
+SC,Mestre,Formação de mediadores,Sistema sinase,2,2,2,2
+SC,Superior,Formação de mediadores,Sistema sinase,24,24,19,17
+SE,Mestrando,Formação de mediadores,Sistema sinase,1,1,1,1
+SE,Superior,Formação de mediadores,Sistema sinase,7,7,6,4
+SP,Estudante Superior,Formação de mediadores,Sistema sinase,3,3,2,2
+SP,Mestrando,Formação de mediadores,Sistema sinase,2,2,1,1
+SP,Superior,Formação de mediadores,Sistema sinase,52,52,42,32
+TO,Estudante Superior,Formação de mediadores,Sistema sinase,3,3,2,1
+TO,Mestre,Formação de mediadores,Sistema sinase,1,1,1,1
+TO,Superior,Formação de mediadores,Sistema sinase,5,5,1,0

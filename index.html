@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Indicadores do Sistema Sinase</title>
+    <script type="text/javascript" src="d3.js"></script>
+    <script type="text/javascript" src="crossfilter.js"></script>
+    <script type="text/javascript" src="dc.js"></script>
+    <script type="text/javascript" src="d3-timeline.js"></script>
+    
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="dc.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<div id="wrap">
+    <div id="filtro">
+        <h2>Filtros:</h2>
+        <div id="est_filter" class="combo">
+            Localidade
+            <div id="localidades">
+                <div class="check"><input type="checkbox" name="estTodos" >Todos</div>
+                <div class="check"><input type="checkbox" name="AC" >AC</div>
+                <div class="check"><input type="checkbox" name="AL" >AL</div>
+                <div class="check"><input type="checkbox" name="AM" >AM</div>
+                <div class="check"><input type="checkbox" name="AP" >AP</div>
+                <div class="check"><input type="checkbox" name="BA" >BA</div>
+                <div class="check"><input type="checkbox" name="CE" >CE</div>
+                <div class="check"><input type="checkbox" name="DF" >DF</div>
+                <div class="check"><input type="checkbox" name="ES" >ES</div>
+                <div class="check"><input type="checkbox" name="GO" >GO</div>
+                <div class="check"><input type="checkbox" name="MA" >MA</div>
+                <div class="check"><input type="checkbox" name="MG" >MG</div>
+                <div class="check"><input type="checkbox" name="MS" >MS</div>
+                <div class="check"><input type="checkbox" name="MT" >MT</div>
+                <div class="check"><input type="checkbox" name="PA" >PA</div>
+                <div class="check"><input type="checkbox" name="PB" >PB</div>
+                <div class="check"><input type="checkbox" name="PE" >PE</div>
+                <div class="check"><input type="checkbox" name="PI" >PI</div>
+                <div class="check"><input type="checkbox" name="PR" >PR</div>
+                <div class="check"><input type="checkbox" name="RJ" >RJ</div>
+                <div class="check"><input type="checkbox" name="RN" >RN</div>
+                <div class="check"><input type="checkbox" name="RO" >RO</div>
+                <div class="check"><input type="checkbox" name="RR" >RR</div>
+                <div class="check"><input type="checkbox" name="RS" >RS</div>
+                <div class="check"><input type="checkbox" name="SC" >SC</div>
+                <div class="check"><input type="checkbox" name="SE" >SE</div>
+                <div class="check"><input type="checkbox" name="SP" >SP</div>
+                <div class="check"><input type="checkbox" name="TO" >TO</div>
+    
+            
+            </div>
+        </div>
+        <div id="cur_filter" class="combo">
+            Curso
+            <div id="cursos">
+                <input type="checkbox" name="cursoTodos" >Todos<br>
+                <span id="cursos_check"></span>
+            </div>
+        </div>
+        <div class="clear" ></div>
+    </div>
+    <div id="conteudo">
+        <div id="estados">
+            <header class="titulo">Alunos por Estado</header>
+            <div id="bar"></div>
+            <div id="bar_leg" class="legenda clear">
+                <header>Totais</header>
+                <ul id="tot">
+                    <li id="tot0"></li>
+                    <li id="tot1"></li>
+                    <li id="tot2"></li>
+                    <li id="tot3"></li>
+                    <li id="tot4"></li>
+                </ul>
+                <ul id="per">
+                    <li id="per1"></li>
+                    <li id="per2"></li>
+                    <li id="per3"></li>
+                    <li id="per4"></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div id="esc_cont">
+            <header class="titulo">Distribuição por Escolaridade</header>
+            <div id="escolaridade"></div>
+            </div>
+        </div>
+        <div id="atua_cont">
+            <header class="titulo">Distribuição por Área de Atuação</header>
+            <div id="atuacao"></div>
+        </div>
+        <div class="clear"></div>
+        <div id="time">
+            <header class="titulo">Linha do Tempo dos Cursos</header>
+            <div id="timeline"></div>
+        </div>
+        
+        
+    </div>
+</div>
+<!--<div id="nana"></div>-->
+<script type="text/javascript">
+    
+//Polyfill findIndex
+    
+if (!Array.prototype.findIndex) {
+  Array.prototype.findIndex = function(predicate) {
+    if (this === null) {
+      throw new TypeError('Array.prototype.findIndex called on null or undefined');
+    }
+    if (typeof predicate !== 'function') {
+      throw new TypeError('predicate must be a function');
+    }
+    var list = Object(this);
+    var length = list.length >>> 0;
+    var thisArg = arguments[1];
+    var value;
+
+    for (var i = 0; i < length; i++) {
+      value = list[i];
+      if (predicate.call(thisArg, value, i, list)) {
+        return i;
+      }
+    }
+    return -1;
+  };
+}
+ 
+    
+/////////////////
+    
+    
+// D3 Localization
+
+var ptbr = d3.locale({
+    "decimal": ",",
+    "thousands": ".",
+    "grouping": [3],
+    "currency": ["R$", ""],
+    "dateTime": "%d/%m/%Y %H:%M:%S",
+    "date": "%d/%m/%Y",
+    "time": "%H:%M:%S",
+    "periods": ["AM", "PM"],
+    "days": ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"],
+    "shortDays": ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"],
+    "months": ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"],
+    "shortMonths": ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
+});
+d3.time.format = ptbr.timeFormat;
+    
+////////////////
+    
+function format(n) {
+    return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+}
+    
+function updateFilters() {
+    
+    //Update estados
+    var fil = estChart.filters();
+    d3.selectAll("#localidades input").each(function () {
+        this.checked = false;
+    });
+    
+    if (fil.length == 0) {
+        document.getElementsByName("estTodos")[0].checked = true;
+    }
+    
+    fil.forEach(function(e){
+        document.getElementsByName(e)[0].checked = true;
+    });
+    
+    //Update cursos
+    d3.selectAll("#cursos input").each(function () {
+        this.checked = false;
+    });
+    
+    var fil = cursoChart.filters();
+    if (fil.length == 0) {
+        document.getElementsByName("cursoTodos")[0].checked = true;
+    }
+    
+    fil.forEach(function(e){
+        document.getElementsByName(e)[0].checked = true;
+    });
+    
+    // Desenha tudo
+    dc.redrawAll();
+    
+    // Atualiza Totais
+    
+    var sel = f.groupAll().reduceSum(dc.pluck("selecionados")).value();
+    
+    var tot = [f.groupAll().reduceSum(dc.pluck("inscritos")).value(),
+               f.groupAll().reduceSum(dc.pluck("abandonos")).value(),
+               f.groupAll().reduceSum(dc.pluck("evasoes")).value(),
+               f.groupAll().reduceSum(dc.pluck("nao_cert")).value(),
+               f.groupAll().reduceSum(dc.pluck("certificados")).value()]
+    
+    tot.forEach(function(item, i){
+        d3.select("#tot"+i).text(format(item));
+        d3.select("#per"+i).text("("+Math.round(item/sel*100)+"%)");
+    });
+    
+}
+    
+function initCharts(data) {
+
+    f = crossfilter(data);
+    
+    uf = f.dimension(function(d){return d.uf});
+    ufIns = uf.group().reduceSum(function(d) {return d.inscritos - d.selecionados});
+    ufNao_Cert = uf.group().reduceSum(function(d) {return d.nao_cert});
+    ufCert = uf.group().reduceSum(function(d) {return d.certificados});
+    ufAbandono = uf.group().reduceSum(function(d) {return d.abandonos});
+    ufEvasao = uf.group().reduceSum(function(d) {return d.evasoes});
+    
+    esc = f.dimension(function(d){return d.escolaridade});
+    escIns = esc.group().reduceSum(function(d) {return d.inscritos});
+    
+    atua = f.dimension(function(d){return d.area_atuacao});
+    atuaIns = atua.group().reduceSum(function(d) {return d.inscritos});
+    
+    curso = f.dimension(function(d){return d.curso});
+    cursoIns = curso.group().reduceSum(function(d) {return d.inscritos});
+    
+    //Check Box Cursos
+    var curso_check = d3.select("#cursos_check")
+        .selectAll("input")
+        .data(curso.group().all())
+        .enter().append("label");
+    
+    curso_check.append("input")
+        .attr("type","checkbox")
+        .attr("name",function(d){ return d.key});
+    curso_check.append("span").text(function(d) { return d.key});
+    curso_check.append("br");
+    
+
+    //Gráfico Estados Stack
+    estChart = dc.barChart("#bar")
+    .width(748).height(300)
+    .dimension(uf)
+	.group(ufIns, "Inscritos")
+    .stack(ufAbandono, "Abandono")
+    .stack(ufEvasao, "Evasão")
+    .stack(ufNao_Cert,"Não Certificados")
+    .stack(ufCert,"Certificados")
+    .legend(dc.legend().horizontal(true).itemWidth(125).x(126).y(280))
+    .ordinalColors(["#c3c3c3","#557cff","#425ebf","#32488d","#49862d"])
+	.brushOn(false)
+	.x(d3.scale.ordinal())
+    .xUnits(dc.units.ordinal)
+    .elasticY(true)
+    .on('filtered', updateFilters);
+    estChart.margins().left = 40;
+    estChart.margins().right = 10;
+    estChart.margins().bottom = 60;
+    
+    estChart.title(function(){});
+    
+    //Grafico Torta Escolaridade
+    escChart = dc.pieChart("#escolaridade")
+    .dimension(esc).group(escIns)
+    .width(360).height(200)
+    .cx(100)
+    .innerRadius(40)
+    .radius(90)
+    .label(function(){})
+    .title(function(d) {
+        var n = d.value / d3.sum(escIns.all(), function(d){ return d.value; });
+        return d.key +" : "+ Math.round(n * 100) + "%";
+    })
+    .ordinalColors(['#a6cee3','#1f78b4','#b2df8a','#33a02c','#fb9a99','#e31a1c',
+                    '#fdbf6f','#ff7f00','#cab2d6','#6a3d9a','#ffff5d'])
+    .on('filtered', updateFilters)
+    .legend(dc.legend().x(220).y(10));
+    
+    //Grafico Torta Atuação
+    atuaChart = dc.pieChart("#atuacao")
+    .dimension(atua).group(atuaIns)
+    .width(360).height(200)
+    .cx(100)
+    .innerRadius(40)
+    .radius(90)
+    .label(function(){})
+    .title(function(d) {
+        var n = d.value / d3.sum(escIns.all(), function(d){ return d.value; });
+        return d.key +" : "+ Math.round(n * 100) + "%";
+    })
+    .ordinalColors(['#a6cee3','#1f78b4','#b2df8a','#33a02c','#fb9a99','#e31a1c','#fdbf6f'])
+    .on('filtered', updateFilters)
+    .legend(dc.legend().x(220).y(10));
+    
+    //Grafico Curso (apenas filtra)
+    cursoChart = dc.pieChart("#nana")
+    .dimension(curso).group(cursoIns);
+    
+	dc.renderAll();
+    updateFilters();
+    
+    //Checkboxes
+        //Estados
+    d3.selectAll("#localidades input").on("click",function(){
+        if (this.name == "estTodos") {
+            estChart.filterAll();
+        } else {
+            estChart.filter(this.name);
+        }
+        updateFilters();    
+    })
+    
+        //Cursos
+    d3.selectAll("#cursos input").on("click",function(){
+        if (this.name == "cursoTodos") {
+            cursoChart.filterAll();
+        } else {
+            cursoChart.filter(this.name);
+        }
+        updateFilters();  
+    })
+    
+}
+    
+    
+d3.csv("CursosQuantidades.csv",function(data){
+    data.forEach(function (d,i){
+        d.inscritos = parseInt(d.inscritos,10);
+        d.selecionados = parseInt(d.selecionados,10);
+        d.nao_cert = parseInt(d.nao_cert,10);
+        d.certificados = parseInt(d.certificados,10);
+        d.abandonos = parseInt(d.abandonos,10);
+        d.evasoes = parseInt(d.evasoes,10);
+    });
+    
+    initCharts(data);
+
+});
+    
+d3.csv("CursosLinhadoTempo.csv", function(data){
+    var parseData = [];
+    data.forEach(function (d,i){
+        d.dtiniperiodoletivo = new Date(d.dtiniperiodoletivo);
+        d.dtfimperiodoletivo = new Date(d.dtfimperiodoletivo);
+        
+        function exists(n) {return n.label == d.dccurso};
+        
+        var j = parseData.findIndex(exists);
+        if (j < 0) {
+            parseData.push({label:d.dccurso,
+                times:[{"starting_time": d.dtiniperiodoletivo, "ending_time": d.dtfimperiodoletivo}]});
+        } else {
+            parseData[j].times.push({"starting_time": d.dtiniperiodoletivo, "ending_time": d.dtfimperiodoletivo});
+        }
+    });
+    
+    var timeline = d3.timeline()
+        .stack()
+        .rowSeparators("#CCCCCC")
+        .itemMargin(10)
+        .margin({left:205 , right: 0, top: 0 , bottom: 0})
+        .showTimeAxisTick()
+        .tickFormat({
+            format: d3.time.format.multi([
+                ["%b", function(d) { return d.getMonth(); }],
+                ["%Y", function() { return true; }]]),
+            tickTime: d3.time.months,
+            tickSize:6});
+    var svg = d3.select("#timeline").append("svg").attr("width", 740)
+        .datum(parseData).call(timeline);
+    
+});
+
+
+</script>
+</body>
+</html>

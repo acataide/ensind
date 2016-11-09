@@ -1,0 +1,175 @@
+body {
+    margin:0px auto;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+#wrap {
+    width: 748px;
+    margin:0px auto;
+}
+
+.dc-chart .axis text {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 0.8em
+}
+
+
+#filtro {
+    border-top: 4px solid #3268ba;
+    background: #eeeff2;
+    margin:10px 0;
+    padding: 1px;
+}
+
+#filtro h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+    color:#3268ba;
+    margin:5px 15px 8px 5px;
+}
+
+.combo {
+    background-color: white;
+    margin: 7px 0px 7px 0;
+    padding: 5px;
+}
+.check {
+    display: inline-block;
+    width: 69px;
+}
+input {
+    margin-right: 5px;
+}
+
+#localidades, #cursos {
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+#cursos{
+    height:8.6em;
+    overflow-y: scroll;
+}
+
+.clear {
+    clear: both;
+}
+
+.titulo{
+    border-top: 2px solid #2c66ce;
+    background: #eaebee;
+    text-transform: uppercase;
+    font-size: .85em;
+    color: #2c66ce;
+    padding: 5px 2px 2px 2px;
+    margin-bottom: 10px;
+}
+
+.legenda {
+    font-size: 0.8em;
+    margin-bottom: 20px;    
+}
+
+
+.legenda ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    float:right;
+    
+}
+
+.legenda ul li {
+    display: inline-block;
+    width: 122px;
+}
+
+
+.legenda header{
+    font-weight: 800;
+    float:left;
+}
+
+.box {
+    background-color: black;
+    width:10px;
+    height:10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#esc_cont {
+    width: 369px;
+    margin-right: 10px;
+    float:left;
+    margin-bottom: 20px;
+}
+
+.right{
+    float:right;
+    width:150px;
+}
+.right header{
+    float:none;
+    margin-bottom: 5px;
+}
+.right ul{
+    float: none;
+    padding-left: 10px;
+}
+.right ul li{
+    display: list-item;
+    margin:0;
+}
+
+#atua_cont{
+    width: 369px;
+    float:left;
+    margin-bottom: 20px;
+
+}
+
+#estados #tot li {font-weight: 800; font-size:1.5em}
+#estados #tot0 {color: #7b7b7b}
+#estados #tot1 {color: #557cff}
+#estados #tot2 {color: #425ebf}
+#estados #tot3 {color: #32488d}
+#estados #tot4 {color: #49862d}
+
+
+.y {fill:#888}
+
+#bar {
+    width:750px;
+    overflow: hidden;
+    margin-bottom: -10px;
+}
+
+.deselected {
+    opacity: 0.2;
+}
+
+#timeline .tick line{
+    stroke: #aaa;
+    stroke-dasharray:2,2;
+}
+
+#timeline .axis{
+    font-size: 0.7em;
+}
+
+#timeline .timeline-label {
+    font-size: 0.8em ;
+}
+
+#timeline .axis .domain {
+    fill: transparent;
+    stroke: black;
+    stroke-width: 1;
+    stroke-dasharray: 0;
+    
+}
+
+#timeline rect {
+    stroke: white;
+    stroke-width: 2px;
+}
