@@ -67,18 +67,22 @@
             <div id="bar_leg" class="legenda clear">
                 <header>Totais</header>
                 <ul id="tot">
-                    <li id="tot0"></li>
-                    <li id="tot1"></li>
-                    <li id="tot2"></li>
-                    <li id="tot3"></li>
-                    <li id="tot4"></li>
+                    <li><span id="tot0"></span></li>
+                    <li><span id="tot1"></span>&nbsp;<span class="per" id="per1"></span></li>
+                    <li><span id="tot2"></span>&nbsp;<span class="per" id="per2"></span></li>
+                    <li><span id="tot3"></span>&nbsp;<span class="per" id="per3"></span></li>
                 </ul>
                 <ul id="per">
-                    <li id="per1"></li>
-                    <li id="per2"></li>
-                    <li id="per3"></li>
-                    <li id="per4"></li>
+
+
+
                 </ul>
+                <div class="clear"></div>
+                <div id="selec">
+                    <div class="col"></div>
+                    <span id="selec_tot"></span>
+                    <span class="dc-legend">Selecionados</span>
+                </div>
                 <div class="clear"></div>
             </div>
         </div>
@@ -194,7 +198,7 @@ function updateFilters() {
     var sel = f.groupAll().reduceSum(dc.pluck("selecionados")).value();
     
     var tot = [f.groupAll().reduceSum(dc.pluck("inscritos")).value(),
-               f.groupAll().reduceSum(dc.pluck("abandonos")).value(),
+               f.groupAll().reduceSum(dc.pluck("abandonos")).value() +
                f.groupAll().reduceSum(dc.pluck("evasoes")).value(),
                f.groupAll().reduceSum(dc.pluck("nao_cert")).value(),
                f.groupAll().reduceSum(dc.pluck("certificados")).value()]
@@ -204,6 +208,8 @@ function updateFilters() {
         d3.select("#per"+i).text("("+Math.round(item/sel*100)+"%)");
     });
     
+    d3.select("#estados #selec_tot").text(format(sel))
+
 }
     
 function initCharts(data) {
@@ -214,8 +220,7 @@ function initCharts(data) {
     ufIns = uf.group().reduceSum(function(d) {return d.inscritos - d.selecionados});
     ufNao_Cert = uf.group().reduceSum(function(d) {return d.nao_cert});
     ufCert = uf.group().reduceSum(function(d) {return d.certificados});
-    ufAbandono = uf.group().reduceSum(function(d) {return d.abandonos});
-    ufEvasao = uf.group().reduceSum(function(d) {return d.evasoes});
+    ufEvasao = uf.group().reduceSum(function(d) {return d.evasoes + d.abandonos});
     
     esc = f.dimension(function(d){return d.escolaridade});
     escIns = esc.group().reduceSum(function(d) {return d.inscritos});
@@ -244,12 +249,11 @@ function initCharts(data) {
     .width(748).height(300)
     .dimension(uf)
 	.group(ufIns, "Inscritos")
-    .stack(ufAbandono, "Abandono")
     .stack(ufEvasao, "Evasão")
     .stack(ufNao_Cert,"Não Certificados")
     .stack(ufCert,"Certificados")
-    .legend(dc.legend().horizontal(true).itemWidth(125).x(126).y(280))
-    .ordinalColors(["#c3c3c3","#557cff","#425ebf","#32488d","#49862d"])
+    .legend(dc.legend().horizontal(true).itemWidth(125).x(252).y(280))
+    .ordinalColors(["#c3c3c3","#557cff","#32488d","#49862d"])
 	.brushOn(false)
 	.x(d3.scale.ordinal())
     .xUnits(dc.units.ordinal)
@@ -292,7 +296,7 @@ function initCharts(data) {
     })
     .ordinalColors(['#a6cee3','#1f78b4','#b2df8a','#33a02c','#fb9a99','#e31a1c','#fdbf6f'])
     .on('filtered', updateFilters)
-    .legend(dc.legend().x(220).y(10));
+    .legend(dc.legend().x(220).y(10).itemWidth(50));
     
     //Grafico Curso (apenas filtra)
     cursoChart = dc.pieChart("#nana")

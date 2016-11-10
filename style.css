@@ -86,6 +86,7 @@ input {
 
 .legenda header{
     font-weight: 800;
+    font-size: 1.5em;
     float:left;
 }
 
@@ -128,12 +129,27 @@ input {
 
 }
 
-#estados #tot li {font-weight: 800; font-size:1.5em}
-#estados #tot0 {color: #7b7b7b}
+#estados #tot li,
+#estados #selec_tot {font-weight: 800; font-size:1.5em}
+#estados #tot .per {font-weight: 400; font-size: 0.6em}
+#estados #tot0,
+#estados #selec {color: #7b7b7b}
 #estados #tot1 {color: #557cff}
-#estados #tot2 {color: #425ebf}
-#estados #tot3 {color: #32488d}
-#estados #tot4 {color: #49862d}
+#estados #tot2 {color: #32488d}
+#estados #tot3 {color: #49862d}
+
+#estados #selec{
+    width:375px;
+    float:right;
+    text-align: center;
+}
+
+#estados .col{
+    height:6px;
+    border:1px solid black;
+    border-top:0;
+    margin-top: 5px;
+}
 
 
 .y {fill:#888}
