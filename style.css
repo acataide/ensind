@@ -1,10 +1,11 @@
 body {
-    margin:0px auto;
+    margin: 0px auto;
     font-family: 'Open Sans', Arial, sans-serif;
 }
+
 #wrap {
     width: 748px;
-    margin:0px auto;
+    margin: 0px auto;
 }
 
 .dc-chart .axis text {
@@ -12,19 +13,18 @@ body {
     font-size: 0.8em
 }
 
-
 #filtro {
     border-top: 4px solid #3268ba;
     background: #eeeff2;
-    margin:10px 0;
+    margin: 10px 0;
     padding: 1px;
 }
 
 #filtro h2 {
     font-size: 1.2em;
     font-weight: 400;
-    color:#3268ba;
-    margin:5px 15px 8px 5px;
+    color: #3268ba;
+    margin: 5px 15px 8px 5px;
 }
 
 .combo {
@@ -32,21 +32,24 @@ body {
     margin: 7px 0px 7px 0;
     padding: 5px;
 }
+
 .check {
     display: inline-block;
     width: 69px;
 }
+
 input {
     margin-right: 5px;
 }
 
-#localidades, #cursos {
+#localidades,
+#cursos {
     font-size: 0.9em;
     margin-top: 10px;
 }
 
-#cursos{
-    height:8.6em;
+#cursos {
+    height: 8.6em;
     overflow-y: scroll;
 }
 
@@ -54,7 +57,7 @@ input {
     clear: both;
 }
 
-.titulo{
+.titulo {
     border-top: 2px solid #2c66ce;
     background: #eaebee;
     text-transform: uppercase;
@@ -66,16 +69,15 @@ input {
 
 .legenda {
     font-size: 0.8em;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
+    margin-left: 40px;
 }
-
 
 .legenda ul {
     list-style-type: none;
-    margin:0;
-    padding:0;
-    float:right;
-    
+    margin: 0;
+    padding: 0;
+    float: left;
 }
 
 .legenda ul li {
@@ -83,17 +85,10 @@ input {
     width: 122px;
 }
 
-
-.legenda header{
-    font-weight: 800;
-    font-size: 1.5em;
-    float:left;
-}
-
 .box {
     background-color: black;
-    width:10px;
-    height:10px;
+    width: 10px;
+    height: 10px;
     display: inline-block;
     margin-right: 10px;
 }
@@ -101,61 +96,96 @@ input {
 #esc_cont {
     width: 369px;
     margin-right: 10px;
-    float:left;
+    float: left;
     margin-bottom: 20px;
 }
 
-.right{
-    float:right;
-    width:150px;
+.right {
+    float: right;
+    width: 150px;
 }
-.right header{
-    float:none;
+
+.right header {
+    float: none;
     margin-bottom: 5px;
 }
-.right ul{
+
+.right ul {
     float: none;
     padding-left: 10px;
 }
-.right ul li{
+
+.right ul li {
     display: list-item;
-    margin:0;
+    margin: 0;
 }
 
-#atua_cont{
+#atua_cont {
     width: 369px;
-    float:left;
+    float: left;
     margin-bottom: 20px;
-
 }
 
 #estados #tot li,
-#estados #selec_tot {font-weight: 800; font-size:1.5em}
-#estados #tot .per {font-weight: 400; font-size: 0.6em}
-#estados #tot0,
-#estados #selec {color: #7b7b7b}
-#estados #tot1 {color: #557cff}
-#estados #tot2 {color: #32488d}
-#estados #tot3 {color: #49862d}
-
-#estados #selec{
-    width:375px;
-    float:right;
-    text-align: center;
+#estados #selec_tot {
+    font-weight: 800;
+    font-size: 1.5em
 }
 
-#estados .col{
-    height:6px;
-    border:1px solid black;
-    border-top:0;
+#estados #tot .per {
+    font-weight: 400;
+    font-size: 0.6em
+}
+
+#estados #tot0,
+#estados #selec {
+    color: #7b7b7b
+}
+
+#estados #tot1 {
+    color: #557cff
+}
+
+#estados #tot2 {
+    color: #32488d
+}
+
+#estados #tot3 {
+    color: #49862d
+}
+
+#estados #selec {
+    width: 375px;
+    float: left;
+    text-align: center;
+    margin-left: 110px;
+}
+
+#estados .col {
+    height: 6px;
+    border: 1px solid black;
+    border-top: 0;
     margin-top: 5px;
 }
 
+#estados #tot .seta {
+    width:50px;
+    text-align: center;
+}
 
-.y {fill:#888}
+#estados #tot #tot_ins{
+    position: absolute;
+    margin-top: -18px;
+    font-size: 0.6em;
+    font-weight: 400;
+}
+
+.y {
+    fill: #888
+}
 
 #bar {
-    width:750px;
+    width: 750px;
     overflow: hidden;
     margin-bottom: -10px;
 }
@@ -164,17 +194,17 @@ input {
     opacity: 0.2;
 }
 
-#timeline .tick line{
+#timeline .tick line {
     stroke: #aaa;
-    stroke-dasharray:2,2;
+    stroke-dasharray: 2, 2;
 }
 
-#timeline .axis{
+#timeline .axis {
     font-size: 0.7em;
 }
 
 #timeline .timeline-label {
-    font-size: 0.8em ;
+    font-size: 0.8em;
 }
 
 #timeline .axis .domain {
@@ -182,7 +212,6 @@ input {
     stroke: black;
     stroke-width: 1;
     stroke-dasharray: 0;
-    
 }
 
 #timeline rect {

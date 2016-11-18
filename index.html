@@ -62,15 +62,16 @@
     </div>
     <div id="conteudo">
         <div id="estados">
-            <header class="titulo">Alunos por Estado</header>
+            <header class="titulo">Inscritos por Estado</header>
             <div id="bar"></div>
             <div id="bar_leg" class="legenda clear">
-                <header>Totais</header>
                 <ul id="tot">
                     <li><span id="tot0"></span></li>
                     <li><span id="tot1"></span>&nbsp;<span class="per" id="per1"></span></li>
                     <li><span id="tot2"></span>&nbsp;<span class="per" id="per2"></span></li>
                     <li><span id="tot3"></span>&nbsp;<span class="per" id="per3"></span></li>
+                    <li class= "seta">=</li>
+                    <li><span id="tot_ins">Total de Inscritos</span><span id="tot4"></span></li>
                 </ul>
                 <ul id="per">
 
@@ -197,11 +198,12 @@ function updateFilters() {
     
     var sel = f.groupAll().reduceSum(dc.pluck("selecionados")).value();
     
-    var tot = [f.groupAll().reduceSum(dc.pluck("inscritos")).value(),
+    var tot = [f.groupAll().reduceSum(function(d) {return d.inscritos - d.selecionados}).value(),
                f.groupAll().reduceSum(dc.pluck("abandonos")).value() +
                f.groupAll().reduceSum(dc.pluck("evasoes")).value(),
                f.groupAll().reduceSum(dc.pluck("nao_cert")).value(),
-               f.groupAll().reduceSum(dc.pluck("certificados")).value()]
+               f.groupAll().reduceSum(dc.pluck("certificados")).value(),
+               f.groupAll().reduceSum(dc.pluck("inscritos")).value()]
     
     tot.forEach(function(item, i){
         d3.select("#tot"+i).text(format(item));
@@ -217,7 +219,7 @@ function initCharts(data) {
     f = crossfilter(data);
     
     uf = f.dimension(function(d){return d.uf});
-    ufIns = uf.group().reduceSum(function(d) {return d.inscritos - d.selecionados});
+    ufNS = uf.group().reduceSum(function(d) {return d.inscritos - d.selecionados});
     ufNao_Cert = uf.group().reduceSum(function(d) {return d.nao_cert});
     ufCert = uf.group().reduceSum(function(d) {return d.certificados});
     ufEvasao = uf.group().reduceSum(function(d) {return d.evasoes + d.abandonos});
@@ -248,11 +250,11 @@ function initCharts(data) {
     estChart = dc.barChart("#bar")
     .width(748).height(300)
     .dimension(uf)
-	.group(ufIns, "Inscritos")
+	.group(ufNS, "Não Selecionados")
     .stack(ufEvasao, "Evasão")
     .stack(ufNao_Cert,"Não Certificados")
     .stack(ufCert,"Certificados")
-    .legend(dc.legend().horizontal(true).itemWidth(125).x(252).y(280))
+    .legend(dc.legend().horizontal(true).itemWidth(125).x(40).y(280))
     .ordinalColors(["#c3c3c3","#557cff","#32488d","#49862d"])
 	.brushOn(false)
 	.x(d3.scale.ordinal())
@@ -263,7 +265,11 @@ function initCharts(data) {
     estChart.margins().right = 10;
     estChart.margins().bottom = 60;
     
-    estChart.title(function(){});
+    estChart.title(function(d) {
+        var total = f.groupAll().reduceSum(function(e){return e.uf == d.key ? e.inscritos : 0 }).value();
+        var percent = Math.round(d.value / total * 100);
+        return format(d.value) + " ("+percent+"%)";
+    });
     
     //Grafico Torta Escolaridade
     escChart = dc.pieChart("#escolaridade")
