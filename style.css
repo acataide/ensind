@@ -73,26 +73,6 @@ input {
     margin-left: 40px;
 }
 
-.legenda ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    float: left;
-}
-
-.legenda ul li {
-    display: inline-block;
-    width: 122px;
-}
-
-.box {
-    background-color: black;
-    width: 10px;
-    height: 10px;
-    display: inline-block;
-    margin-right: 10px;
-}
-
 #esc_cont {
     width: 369px;
     margin-right: 10px;
@@ -126,39 +106,32 @@ input {
     margin-bottom: 20px;
 }
 
-#estados #tot li,
-#estados #selec_tot {
+#estados .legenda{
+    margin-bottom:30px
+}
+#estados .legenda div {
+    float: left;
+}
+
+#estados .tot {
     font-weight: 800;
     font-size: 1.5em
 }
 
-#estados #tot .per {
-    font-weight: 400;
-    font-size: 0.6em
+#estados .per {
+    font-size: 0.9em
 }
 
-#estados #tot0,
-#estados #selec {
-    color: #7b7b7b
+#estados #tot0 {
+    color: #49862d;
 }
 
 #estados #tot1 {
-    color: #557cff
+    color: #32488d;
 }
 
 #estados #tot2 {
-    color: #32488d
-}
-
-#estados #tot3 {
-    color: #49862d
-}
-
-#estados #selec {
-    width: 375px;
-    float: left;
-    text-align: center;
-    margin-left: 110px;
+    color: #557cff;
 }
 
 #estados .col {
@@ -173,10 +146,10 @@ input {
     text-align: center;
 }
 
-#estados #tot #tot_ins{
+.tot_label{
     position: absolute;
-    margin-top: -18px;
-    font-size: 0.6em;
+    margin-top: 26px;
+    font-size: 0.8em;
     font-weight: 400;
 }
 
