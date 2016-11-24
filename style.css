@@ -107,7 +107,7 @@ input {
 }
 
 #estados .legenda{
-    margin-bottom:30px
+    margin-bottom:400px
 }
 #estados .legenda div {
     float: left;
@@ -141,12 +141,14 @@ input {
     margin-top: 5px;
 }
 
-#estados #tot .seta {
+#estados .seta {
     width:50px;
     text-align: center;
+    font-weight: 800;
+    font-size: 1.2em;
 }
 
-.tot_label{
+#estados .tot_label{
     position: absolute;
     margin-top: 26px;
     font-size: 0.8em;
