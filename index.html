@@ -94,11 +94,11 @@
                     <div class="clear"></div>
                     <div style="width:340px" class="col"></div>
                     <div class="clear"></div>
-                    <div style="width:340px; text-align:center"><span class="tot_label">Selecionados</span><span id="tot3" class="tot"></span></div>
+                    <div style="width:340px; text-align:center"><span class="tot_label">Selecionados</span><span id="tot3" class="tot"></span>&nbsp;<span class="per" id="pert3"></span></div>
                     <div class="seta">+</div>
-                    <div style="width:90px"><span class="tot_label">Não Selecionados</span><span id="tot4" class="tot"></span></div>
+                    <div style="width:90px"><span class="tot_label">Não Selecionados</span><span id="tot4" class="tot"></span>&nbsp;<span class="per" id="pert4"></span></div>
                     <div class="seta">=</div>
-                    <div><span class="tot_label">Total de Inscritos</span><span id="tot5" class="tot"></span></div>
+                    <div><span class="tot_label">Total de Inscritos</span><span id="tot5" class="tot"></span>&nbsp;<span class="per" id="pert5"></span></div>
                     <div class="clear"></div>
                 </div>
             </div>
@@ -176,6 +176,7 @@
             fil.forEach(function (e) {
                 document.getElementsByName(e)[0].checked = true;
             });
+
             //Update cursos
             d3.selectAll("#cursos input").each(function () {
                 this.checked = false;
@@ -187,63 +188,51 @@
             fil.forEach(function (e) {
                 document.getElementsByName(e)[0].checked = true;
             });
+
             // Desenha tudo
             dc.redrawAll();
+
             // Atualiza Totais
             var tot = [
-        f.groupAll().reduceSum(dc.pluck("certificados")).value(), /* 0 -> certificados */
-        f.groupAll().reduceSum(dc.pluck("nao_cert")).value(), // 1 -> não certificados
-        f.groupAll().reduceSum(function (d) {
-                    return d.evasoes + d.abandonos
-                }).value(), // 2 -> evasão
-        f.groupAll().reduceSum(dc.pluck("selecionados")).value(), // 3 -> selecionados
-        f.groupAll().reduceSum(function (d) {
-                    return d.inscritos - d.selecionados
-                }).value(), // 4 -> não selecionados
-        f.groupAll().reduceSum(dc.pluck("inscritos")).value() // 5 -> inscritos
-    ]
+                f.groupAll().reduceSum(dc.pluck("certificados")).value(),   // 0 -> certificados
+                f.groupAll().reduceSum(dc.pluck("nao_cert")).value(),       // 1 -> não certificados
+                f.groupAll().reduceSum(function (d) {                       // 2 -> evasão
+                    return d.evasoes + d.abandonos}).value(),
+                f.groupAll().reduceSum(dc.pluck("selecionados")).value(),   // 3 -> selecionados
+                f.groupAll().reduceSum(function (d) {                       // 4 -> não selecionados
+                    return d.inscritos - d.selecionados}).value(),
+                f.groupAll().reduceSum(dc.pluck("inscritos")).value()       // 5 -> inscritos
+            ]
             tot.forEach(function (item, i) {
                 d3.select("#tot" + i).text(format(item));
                 d3.select("#per" + i).text("(" + Math.round(item / tot[3] * 100) + "%)");
+                d3.select("#pert" + i).text("(" + Math.round(item / tot[5] * 100) + "%)");
             });
-            //d3.select("#estados #selec_tot").text(format(sel))
         }
 
         function initCharts(data) {
             f = crossfilter(data);
-            uf = f.dimension(function (d) {
-                return d.uf
-            });
-            ufNS = uf.group().reduceSum(function (d) {
-                return d.inscritos - d.selecionados
-            });
-            ufNao_Cert = uf.group().reduceSum(function (d) {
-                return d.nao_cert
-            });
-            ufCert = uf.group().reduceSum(function (d) {
-                return d.certificados
-            });
-            ufEvasao = uf.group().reduceSum(function (d) {
-                return d.evasoes + d.abandonos
-            });
-            esc = f.dimension(function (d) {
-                return d.escolaridade
-            });
-            escIns = esc.group().reduceSum(function (d) {
-                return d.inscritos
-            });
-            atua = f.dimension(function (d) {
-                return d.area_atuacao
-            });
-            atuaIns = atua.group().reduceSum(function (d) {
-                return d.inscritos
-            });
-            curso = f.dimension(function (d) {
-                return d.curso
-            });
-            cursoIns = curso.group().reduceSum(function (d) {
-                return d.inscritos
-            });
+            uf = f.dimension(function (d) { return d.uf });
+            ufNS = uf.group().reduceSum(function (d) { return d.inscritos - d.selecionados });
+            ufNao_Cert = uf.group().reduceSum(function (d) { return d.nao_cert });
+            ufCert = uf.group().reduceSum(function (d) { return d.certificados });
+            ufEvasao = uf.group().reduceSum(function (d) { return d.evasoes + d.abandonos });
+            esc = f.dimension(function (d) { return d.escolaridade });
+            escIns = esc.group().reduceSum(function (d) { return d.inscritos });
+            escOrd = esc.group().reduce(
+                function(p,v){return v.ordem_escolaridade},
+                function(p,v){return v.ordem_escolaridade},
+                function(){return 0});
+            atua = f.dimension(function (d) { return d.area_atuacao });
+            atuaIns = atua.group().reduceSum(function (d) { return d.inscritos });
+            atuaOrd = atua.group().reduce(
+                function(p,v){return v.ordem_area_atuacao },
+                function(p,v){return v.ordem_area_atuacao },
+                function(){return 0});
+
+            curso = f.dimension(function (d) { return d.curso });
+            cursoIns = curso.group().reduceSum(function (d) { return d.inscritos });
+
             //Check Box Cursos
             var curso_check = d3.select("#cursos_check").selectAll("input").data(curso.group().all()).enter().append("label");
             curso_check.append("input").attr("type", "checkbox").attr("name", function (d) {
@@ -253,8 +242,21 @@
                 return d.key
             });
             curso_check.append("br");
+
             //Gráfico Estados Stack
-            estChart = dc.barChart("#bar").width(748).height(300).dimension(uf).group(ufCert, "Certificados").stack(ufNao_Cert, "Não Certificados").stack(ufEvasao, "Evasão").legend(dc.legend().horizontal(true).itemWidth(125).x(40).y(280)).ordinalColors(["#49862d", "#32488d", "#557cff"]).brushOn(false).x(d3.scale.ordinal()).xUnits(dc.units.ordinal).elasticY(true).on('filtered', updateFilters);
+            estChart = dc.barChart("#bar")
+                .width(748).height(300)
+                .dimension(uf)
+                .group(ufCert, "Certificados")
+                .stack(ufNao_Cert, "Não Certificados") .stack(ufEvasao,"Evasão")
+                .legend(dc.legend().horizontal(true).itemWidth(125).x(40).y(280))
+                .ordinalColors(["#49862d", "#32488d", "#557cff"])
+                .brushOn(false)
+                .x(d3.scale.ordinal())
+                .xUnits(dc.units.ordinal)
+                .elasticY(true)
+                .on('filtered', updateFilters);
+
             estChart.margins().left = 40;
             estChart.margins().right = 10;
             estChart.margins().bottom = 60;
@@ -265,48 +267,72 @@
                 var percent = Math.round(d.value / total * 100);
                 return format(d.value) + " (" + percent + "%)";
             });
+
+
             //Grafico Torta Escolaridade
-            escChart = dc.pieChart("#escolaridade").dimension(esc).group(escIns).width(360).height(200).cx(100).innerRadius(40).radius(90).label(function () {}).title(function (d) {
-                var n = d.value / d3.sum(escIns.all(), function (d) {
-                    return d.value;
-                });
-                return d.key + " : " + Math.round(n * 100) + "%";
-            }).ordinalColors(['#a6cee3', '#1f78b4', '#b2df8a', '#33a02c', '#fb9a99', '#e31a1c'
-                    , '#fdbf6f', '#ff7f00', '#cab2d6', '#6a3d9a', '#ffff5d']).on('filtered', updateFilters).legend(dc.legend().x(220).y(10));
+            escChart = dc.pieChart("#escolaridade")
+                .dimension(esc)
+                .group(escIns)
+                .ordering(function (d) { return d.value })
+                .width(360)
+                .height(200)
+                .cx(100)
+                .innerRadius(40)
+                .radius(90)
+                .label(function () {})
+                .title(function (d) {
+                    var n = d.value / d3.sum(escIns.all(), function (d) {return d.value;});
+                    return d.key + " : " + Math.round(n * 100) + "%"; })
+                .ordinalColors(['#a6cee3', '#1f78b4', '#b2df8a', '#33a02c', '#fb9a99',
+                                '#e31a1c', '#fdbf6f', '#ff7f00', '#cab2d6', '#6a3d9a', '#ffff5d'])
+                .on('filtered', updateFilters)
+                .legend(dc.legend().x(220).y(10));
+
+
             //Grafico Torta Atuação
-            atuaChart = dc.pieChart("#atuacao").dimension(atua).group(atuaIns).width(360).height(200).cx(100).innerRadius(40).radius(90).label(function () {}).title(function (d) {
-                var n = d.value / d3.sum(escIns.all(), function (d) {
-                    return d.value;
-                });
-                return d.key + " : " + Math.round(n * 100) + "%";
-            }).ordinalColors(['#a6cee3', '#1f78b4', '#b2df8a', '#33a02c', '#fb9a99', '#e31a1c', '#fdbf6f']).on('filtered', updateFilters).legend(dc.legend().x(220).y(10).itemWidth(50));
+            atuaChart = dc.pieChart("#atuacao")
+                .dimension(atua)
+                .group(atuaIns)
+                .width(360)
+                .height(200)
+                .cx(100)
+                .innerRadius(40)
+                .radius(90)
+                .label(function () {})
+                .title(function (d) {
+                    var n = d.value / d3.sum(escIns.all(), function (d) { return d.value; });
+                    return d.key + " : " + Math.round(n * 100) + "%"; })
+                .ordinalColors(['#a6cee3', '#1f78b4', '#b2df8a', '#33a02c', '#fb9a99', '#e31a1c', '#fdbf6f'])
+                .on('filtered', updateFilters)
+                .legend(dc.legend().x(220).y(10).itemWidth(50));
+
             //Grafico Curso (apenas filtra)
             cursoChart = dc.pieChart("#nana").dimension(curso).group(cursoIns);
             dc.renderAll();
             updateFilters();
+
+
             //Checkboxes
             //Estados
             d3.selectAll("#localidades input").on("click", function () {
-                    if (this.name == "estTodos") {
-                        estChart.filterAll();
-                    }
-                    else {
-                        estChart.filter(this.name);
-                    }
+                if (this.name == "estTodos") {
+                    estChart.filterAll();
+                } else {
+                    estChart.filter(this.name); }
                     updateFilters();
                 })
-                //Cursos
+            //Cursos
+
             d3.selectAll("#cursos input").on("click", function () {
                 if (this.name == "cursoTodos") {
                     cursoChart.filterAll();
-                }
-                else {
-                    cursoChart.filter(this.name);
-                }
-                updateFilters();
-            })
+                } else {
+                    cursoChart.filter(this.name); }
+                    updateFilters();
+                })
         }
-        d3.csv("CursosQuantidades.csv", function (data) {
+
+        d3.csv("cursosquantidades.csv", function (data) {
             data.forEach(function (d, i) {
                 d.inscritos = parseInt(d.inscritos, 10);
                 d.selecionados = parseInt(d.selecionados, 10);
@@ -314,10 +340,12 @@
                 d.certificados = parseInt(d.certificados, 10);
                 d.abandonos = parseInt(d.abandonos, 10);
                 d.evasoes = parseInt(d.evasoes, 10);
+                d.ordem_escolaridade = parseInt(d.ordem_escolaridade, 10);
+                d.ordem_area_atuacao = parseInt(d.ordem_area_atuacao, 10);
             });
             initCharts(data);
         });
-        d3.csv("CursosLinhadoTempo.csv", function (data) {
+        d3.csv("cursoslinhatempo.csv", function (data) {
             var parseData = [];
             data.forEach(function (d, i) {
                 d.dtiniperiodoletivo = new Date(d.dtiniperiodoletivo);
@@ -326,43 +354,33 @@
                 function exists(n) {
                     return n.label == d.dccurso
                 };
+
                 var j = parseData.findIndex(exists);
                 if (j < 0) {
-                    parseData.push({
-                        label: d.dccurso
-                        , times: [{
-                            "starting_time": d.dtiniperiodoletivo
-                            , "ending_time": d.dtfimperiodoletivo
-                        }]
+                    parseData.push({label: d.dccurso, times: [{
+                        "starting_time": d.dtiniperiodoletivo,
+                        "ending_time": d.dtfimperiodoletivo}]
                     });
-                }
-                else {
+                } else {
                     parseData[j].times.push({
-                        "starting_time": d.dtiniperiodoletivo
-                        , "ending_time": d.dtfimperiodoletivo
+                        "starting_time": d.dtiniperiodoletivo,
+                        "ending_time": d.dtfimperiodoletivo
                     });
                 }
             });
-            var timeline = d3.timeline().stack().rowSeparators("#CCCCCC").itemMargin(10).margin({
-                left: 205
-                , right: 0
-                , top: 0
-                , bottom: 0
-            }).showTimeAxisTick().tickFormat({
-                format: d3.time.format.multi([
-                ["%b", function (d) {
-                        return d.getMonth();
-                    }]
-                , ["%Y", function () {
-                        return true;
-                    }]])
-                , tickTime: d3.time.years
-                , numTicks: 12
-                , tickSize: 6
-            });
+            var timeline = d3.timeline().stack()
+                .rowSeparators("#CCCCCC")
+                .itemMargin(10)
+                .margin({left: 205, right: 0, top: 0, bottom: 0})
+                .showTimeAxisTick()
+                .tickFormat({
+                    format: d3.time.format.multi([
+                        ["%b", function (d) { return d.getMonth(); }],
+                        ["%Y", function () { return true; }]]),
+                    tickTime: d3.time.years,
+                    numTicks: 12, tickSize: 6 });
             var svg = d3.select("#timeline").append("svg").attr("width", 740).datum(parseData).call(timeline);
         });
     </script>
 </body>
-
 </html>
