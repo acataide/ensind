@@ -142,6 +142,8 @@
                 return -1;
             };
         }
+
+
         /////////////////
         // D3 Localization
         var ptbr = d3.locale({
@@ -160,10 +162,15 @@
         });
         d3.time.format = ptbr.timeFormat;
         ////////////////
+
+
+        // Formatação de Strings - separador de milhares
         function format(n) {
             return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
         }
 
+
+        //Atualiza Elementos interativos independentes do DC JS
         function updateFilters() {
             //Update estados
             var fil = estChart.filters();
@@ -210,6 +217,8 @@
             });
         }
 
+
+        // Inicialização dos gráficos que utilizam DC JS
         function initCharts(data) {
             f = crossfilter(data);
             uf = f.dimension(function (d) { return d.uf });
@@ -222,13 +231,15 @@
             escOrd = esc.group().reduce(
                 function(p,v){return v.ordem_escolaridade},
                 function(p,v){return v.ordem_escolaridade},
-                function(){return 0});
+                function(){return 0}).all()
+                .reduce(function(r,i){r[i.key]=i.value; return r},{});
             atua = f.dimension(function (d) { return d.area_atuacao });
             atuaIns = atua.group().reduceSum(function (d) { return d.inscritos });
             atuaOrd = atua.group().reduce(
                 function(p,v){return v.ordem_area_atuacao },
                 function(p,v){return v.ordem_area_atuacao },
-                function(){return 0});
+                function(){return 0}).all()
+                .reduce(function(r,i){r[i.key]=i.value; return r},{});
 
             curso = f.dimension(function (d) { return d.curso });
             cursoIns = curso.group().reduceSum(function (d) { return d.inscritos });
@@ -273,7 +284,7 @@
             escChart = dc.pieChart("#escolaridade")
                 .dimension(esc)
                 .group(escIns)
-                .ordering(function (d) { return d.value })
+                .ordering(function (d) { return escOrd[d.key] })
                 .width(360)
                 .height(200)
                 .cx(100)
@@ -293,6 +304,7 @@
             atuaChart = dc.pieChart("#atuacao")
                 .dimension(atua)
                 .group(atuaIns)
+                .ordering(function (d) { return atuaOrd[d.key] })
                 .width(360)
                 .height(200)
                 .cx(100)
